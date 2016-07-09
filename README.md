@@ -20,7 +20,7 @@
 
 * How to use the data
 
-    -   I will try R but as Mr Chung has said about PSPP (and the dataset format is in SPSS .dat), I would try this first
+    -   I will try R later, but as Mr Chung has said about PSPP (and the dataset format is in SPSS .dat), I would try this first
 
 * PSPP way
 
@@ -34,6 +34,12 @@
 
         ```
         sudo port install pspp-devel
+        ```
+
+    -   Running (Good old days graphic; but obviously not very friendly in sharing knowledge! See tutorial later.)
+
+        ```
+         psppire
         ```
 
 

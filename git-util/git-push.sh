@@ -11,9 +11,11 @@ git push
 
 # -- to run --
 
-# under linux or mac
-# 
-# sh git-util/git-push.sh any-message-for-commit
+# under linux or mac; assume under my-git/hkupop-legco
+#
+# cd ~/my-git/hkupop-legco/
+#
+# sh git-util/git-push.sh ??any-message-for-commit??
 
 # -- other helper links --
 
