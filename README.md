@@ -10,10 +10,14 @@
     - run that .sps file under pspp or spss
     - use a text editor you can observe how to recode e.g. the age to group and do cross-tabulation
     - learn spss (or pspp) e.g. 
-        - basic:   [http://library.columbia.edu/locations/dssc/technology/spss_write.html](http://library.columbia.edu/locations/dssc/technology/spss_write.html) and
-                   [http://libguides.library.kent.edu/SPSS/home](http://libguides.library.kent.edu/SPSS/home)
-        - details: [http://www.spsstools.net/en/](http://www.spsstools.net/en/)
-                   but better its older sites [http://legacy.spsstools.net](http://legacy.spsstools.net)
+        - basic:    [http://library.columbia.edu/locations/dssc/technology/spss_write.html](http://library.columbia.edu/locations/dssc/technology/spss_write.html) and
+                    [http://libguides.library.kent.edu/SPSS/home](http://libguides.library.kent.edu/SPSS/home)
+        - longer:   [http://www.gla.ac.uk/media/media_212500_en.pdf](http://www.gla.ac.uk/media/media_212500_en.pdf)
+                    [https://www.princeton.edu/~otorres/pubop.pdf](https://www.princeton.edu/~otorres/pubop.pdf)
+                    and lots of gem in authors pages: [https://www.princeton.edu/~otorres/](https://www.princeton.edu/~otorres/)
+        - details:  [http://www.spsstools.net/en/](http://www.spsstools.net/en/)
+                    but better its older sites 
+                    [http://legacy.spsstools.net](http://legacy.spsstools.net)
 
 ------------------------------------------------------------
 
