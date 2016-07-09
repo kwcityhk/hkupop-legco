@@ -2,8 +2,10 @@
 
 * to run under mac command mode
 
-* pspp crosstab-sample-1.sps.txt 
-* pspp crosstab-sample-1.sps.txt -o crosstab-sample-1.output.pdf
+* cd pspp-run
+
+* pspp crosstab-sample-1.sps
+* pspp crosstab-sample-1.sps -o crosstab-sample-1.output.pdf
 * or you can use a shell commands ...
 
 * the key is one you have one you can edit it and continue trying

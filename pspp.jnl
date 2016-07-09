@@ -1,0 +1,113 @@
+* just an example
+
+* to run under mac command mode
+
+* pspp crosstab-sample-1.sps
+* pspp crosstab-sample-1.sps -o crosstab-sample-1.output.pdf
+* or you can use a shell commands ...
+
+* the key is one you have one you can edit it and continue trying
+
+* GET FILE="/Users/kwcity.hk/my-git/hkupop-legco/hkupop.source.data/2012-legco-rolling-survey-(RP2012).sav".
+
+
+SET WIDTH 132.
+
+
+SET HEADER YES.
+
+
+GET FILE="../hkupop.source.data/2012-legco-rolling-survey-(RP2012).sav".
+
+error: An error occurred while opening `../hkupop.source.data/2012-legco-rolling-survey-(RP2012).sav': No such file or directory.
+
+
+Title "Crosstab before recode".
+
+
+/Users/kwcity.hk/my-git/hkupop-legco/pspp-run/crosstab-sample-1.sps.1-9: error: CROSSTABS: CROSSTABS is allowed only after the active dataset has been defined.
+CROSSTABS 
+	/TABLES= age1	BY	 age2 v4 v2a R1
+	/FORMAT=AVALUE TABLES PIVOT
+	/STATISTICS=CHISQ
+	/CELLS=COUNT ROW COLUMN TOTAL.
+	
+
+/Users/kwcity.hk/my-git/hkupop-legco/pspp-run/crosstab-sample-1.sps.1-6: error: RECODE: RECODE is allowed only after the active dataset has been defined or inside INPUT PROGRAM.
+RECODE	age1 (1 thru  5=1)  ( 6 thru 10=2) 
+			(11 thru 15=3)  (16 thru 20=4)
+			(21 thru 25=5)  (26 thru 30=6)
+			(31 thru 35=7)  (36 thru 40=8)
+			(41 thru 45=9)  (46 thru 50=10)
+			(51 thru 55=11) (56 thru 60=12)
+			(61 thru 65=13) (66 thru 70=14)
+			(71 thru 75=15) (76 thru 80=16)
+			(81 thru 98=17) (99        =99) 
+			INTO age1recode.
+		
+
+/Users/kwcity.hk/my-git/hkupop-legco/pspp-run/crosstab-sample-1.sps.1-8: error: VARIABLE LABELS: VARIABLE LABELS is allowed only after the active dataset has been defined or inside INPUT PROGRAM.
+VARIABLE LABELS age1recode 'Age Recoded'.
+
+
+/Users/kwcity.hk/my-git/hkupop-legco/pspp-run/crosstab-sample-1.sps.1-7: error: MISSING VALUES: MISSING VALUES is allowed only after the active dataset has been defined or inside INPUT PROGRAM.
+MISSING VALUES age1recode(99).
+
+/Users/kwcity.hk/my-git/hkupop-legco/pspp-run/crosstab-sample-1.sps.1-5: error: VALUE LABELS: VALUE LABELS is allowed only after the active dataset has been defined or inside INPUT PROGRAM.
+VALUE LABELS age1recode
+   1 ' 1- 5'   2 ' 6-10'
+   3 '11-15'   4 '16-20'
+   5 '21-25'   6 '26-30'
+   7 '31-35'   8 '36-40'
+   9 '41-45'  10 '46-50'
+  11 '51-55'  12 '56-60'
+  13 '61-65'  14 '66-70'
+  15 '71-75'  16 '76-80'
+  17 '81+'  
+  99 '99 (Missing)'.
+
+
+Title "Crosstab after recode".
+
+
+/Users/kwcity.hk/my-git/hkupop-legco/pspp-run/crosstab-sample-1.sps.1-9: error: CROSSTABS: CROSSTABS is allowed only after the active dataset has been defined.
+CROSSTABS 
+	/TABLES= age1recode	BY	 v4 v2a R1
+	/FORMAT=AVALUE TABLES PIVOT
+	/STATISTICS=CHISQ
+	/CELLS=COUNT ROW COLUMN TOTAL.
+
+
+/Users/kwcity.hk/my-git/hkupop-legco/pspp-run/crosstab-sample-1.sps.1-7: error: EXECUTE: EXECUTE is allowed only after the active dataset has been defined.
+EXECUTE.
+
+
+/Users/kwcity.hk/my-git/hkupop-legco/pspp-run/crosstab-sample-1.sps.1-4: error: SAVE: SAVE is allowed only after the active dataset has been defined.
+SAVE OUTFILE = "../pspp-run/2012-legco-rolling-survey-(RP2012)-running.sav".
+
+
+
+/Users/kwcity.hk/my-git/hkupop-legco/pspp-run/crosstab-sample-1.sps.1-7: error: EXECUTE: EXECUTE is allowed only after the active dataset has been defined.
+EXECUTE.
+
+
+GET FILE="../pspp-run/2012-legco-rolling-survey-(RP2012)-running.sav".
+
+error: An error occurred while opening `../pspp-run/2012-legco-rolling-survey-(RP2012)-running.sav': No such file or directory.
+
+
+Title "Crosstab using recoded datasets".
+
+
+
+/Users/kwcity.hk/my-git/hkupop-legco/pspp-run/crosstab-sample-1.sps.1-9: error: CROSSTABS: CROSSTABS is allowed only after the active dataset has been defined.
+CROSSTABS 
+	/TABLES= age1recode	BY	 v4 v2a R1
+	/FORMAT=AVALUE TABLES PIVOT
+	/STATISTICS=CHISQ
+	/CELLS=COUNT ROW COLUMN TOTAL.
+
+
+/Users/kwcity.hk/my-git/hkupop-legco/pspp-run/crosstab-sample-1.sps.1-7: error: EXECUTE: EXECUTE is allowed only after the active dataset has been defined.
+EXECUTE.
+

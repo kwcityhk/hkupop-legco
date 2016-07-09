@@ -1,5 +1,15 @@
 # Using hkupop-legco spss datasets
 
+* Quick sampling
+
+    - Assume you have install the pspp (or spss!)
+    - see a green bar, on the right see the green button
+        - clone or just download the zip files
+    - under the pspp-run there is a sample
+    - run that 
+    - it should tell you how to recode e.g. the age to group and do tabulation
+    - learn spss (or pspp)
+
 * Purpose
 
     A personal study on the hkupopy web site contained Legco exit-poll and rolling survey results.
