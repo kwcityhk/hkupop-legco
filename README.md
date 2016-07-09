@@ -11,10 +11,10 @@
     - use a text editor you can observe how to recode e.g. the age to group and do cross-tabulation
     - learn spss (or pspp)
       e.g. 
-        basic:   [a link](http://library.columbia.edu/locations/dssc/technology/spss_write.html) and
-                 [a link](http://libguides.library.kent.edu/SPSS/home)
-        details: [a link](http://www.spsstools.net/en/)
-                 but better its older sites [a link](http://legacy.spsstools.net)
+        basic:   [http://library.columbia.edu/locations/dssc/technology/spss_write.html](http://library.columbia.edu/locations/dssc/technology/spss_write.html) and
+                 [http://libguides.library.kent.edu/SPSS/home](http://libguides.library.kent.edu/SPSS/home)
+        details: [http://www.spsstools.net/en/](http://www.spsstools.net/en/)
+                 but better its older sites [http://legacy.spsstools.net](http://legacy.spsstools.net)
 
 ------------------------------------------------------------
 
@@ -30,7 +30,7 @@
 
 * Source
 
-    The data come from : [a link](https://www.hkupop.hku.hk/english/resources/dataset/lc/index.html)
+    The data come from : [https://www.hkupop.hku.hk/english/resources/dataset/lc/index.html](https://www.hkupop.hku.hk/english/resources/dataset/lc/index.html)
 
     In particular I add some checksum (sha2 under mac os x); see the .md file there for details
 
@@ -50,7 +50,7 @@
 
     -   Refer to
 
-        [a link](https://www.gnu.org/software/pspp/)
+        [https://www.gnu.org/software/pspp/](https://www.gnu.org/software/pspp/)
 
     -   Installation
 
@@ -62,9 +62,9 @@
 
         - This assume you already install port, if no try the followings:
         - I do this as follows: 
-            - go to [a link](https://guide.macports.org/chunked/installing.macports.html)
+            - go to [https://guide.macports.org/chunked/installing.macports.html](https://guide.macports.org/chunked/installing.macports.html)
             - find the "MacPorts download directory" and click it
-            - which leads you to https://distfiles.macports.org/MacPorts/ and find the latest version
+            - which leads you to [https://distfiles.macports.org/MacPorts/](https://distfiles.macports.org/MacPorts/) and find the latest version
             - I use "MacPorts-2.3.4-10.11-ElCapitan.pkg"
             - you have to start a new terminal session
             - in general, you also have to do
