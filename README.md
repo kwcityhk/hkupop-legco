@@ -27,9 +27,9 @@
 
     I personally do not recommend to use csv.  One of the major obstacles of using other people's survey is the metadata e.g. what is missing data, what is the questions? what is "1" meant (M or F) etc.  He said they have that format as some kids may want it.  May be, but having done this kind of jobs since 1980 for academics, I do not bother to find out where is the csv. 
 
-    I do not recommend to use SPSS as once you go into visualaistion and ... R etc. or if you have the expensive SAS (do they have free one now, not sure).  Still SPSS .dat format is very common and given we have PSPP, it is ok.
+    I do not recommend to use SPSS as once you go into visualaistion and better programming language ... R etc. or if you have the expensive SAS (do they have free one now, not sure).  Still SPSS .dat format is very common and given we have PSPP, it is ok.  Also, it is quite easy to use as statistical language go.  (The SPSS even now has python etc. languages.  Not sure about the PSPP though.)
 
-    Well, rusty SPSS and unlike 40 years ago, no one paid me to do this or 20 years helping others, let us see.  
+    Well, may be it is just my rusty SPSS.  Also, unlike 40 years ago, no one paid me to do this or 20 years ago, try to help others, let us see how much incentives for doing this old software.  
 
 * Source
 
