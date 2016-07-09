@@ -4,7 +4,11 @@
 
     A personal study on the hkupopy web site contained Legco exit-poll and rolling survey results.
 
-    I personally do not recommend to use csv.  But they said they have that format (which I do not bother to find it out.)
+    I personally do not recommend to use csv.  One of the major obstacles of using other people's survey is the metadata e.g. what is missing data, what is the questions? what is "1" meant (M or F) etc.  He said they have that format as some kids may want it.  May be, but having done this kind of jobs since 1980 for academics, I do not bother to find out where is the csv. 
+
+    I do not recommend to use SPSS as once you go into visualaistion and ... R etc. or if you have the expensive SAS (do they have free one now, not sure).  Still SPSS .dat format is very common and given we have PSPP, it is ok.
+
+    Well, rusty SPSS and unlike 40 years ago, no one paid me to do this or 20 years helping others, let us see.  
 
 * Source
 
@@ -36,11 +40,32 @@
         sudo port install pspp-devel
         ```
 
-    -   Running (Good old days graphic; but obviously not very friendly in sharing knowledge! See tutorial later.)
+        - This assume you already install port, if no try the followings:
+        - I do this as follows: 
+            - go to https://guide.macports.org/chunked/installing.macports.html
+            - find the "MacPorts download directory" and click it
+            - which leads you to https://distfiles.macports.org/MacPorts/ and find the latest version
+            - I use "MacPorts-2.3.4-10.11-ElCapitan.pkg"
+            - you have to start a new terminal session
+            - in general, you also have to do
+
+            ```
+            sudo port self-update
+            ```
+
+        - you need to install X-windows and also in general X-code and its command-line options ...
+
+    -   Running Graphic
 
         ```
          psppire
         ```
+
+         (Good old days graphic; but obviously not very friendly in sharing knowledge but good to create files! See tutorial later.)
+
+    -   Running command mode and this is how the sharing work in the longer term:
+
+        
 
 
 
