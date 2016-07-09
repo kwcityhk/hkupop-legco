@@ -4,7 +4,7 @@ git config --global credential.helper cache
 git config --global credential.helper "cache --timeout=3600"
 
 git add *
-git commit -m "%1"
+git commit -m "$1"
 git pull
 
 git push
