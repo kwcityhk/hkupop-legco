@@ -9,12 +9,11 @@
     - under the pspp-run there is a sample spss synatx file (a file ended with .sps)
     - run that .sps file under pspp or spss
     - use a text editor you can observe how to recode e.g. the age to group and do cross-tabulation
-    - learn spss (or pspp)
-      e.g. 
-        basic:   [http://library.columbia.edu/locations/dssc/technology/spss_write.html](http://library.columbia.edu/locations/dssc/technology/spss_write.html) and
-                 [http://libguides.library.kent.edu/SPSS/home](http://libguides.library.kent.edu/SPSS/home)
-        details: [http://www.spsstools.net/en/](http://www.spsstools.net/en/)
-                 but better its older sites [http://legacy.spsstools.net](http://legacy.spsstools.net)
+    - learn spss (or pspp) e.g. 
+        - basic:   [http://library.columbia.edu/locations/dssc/technology/spss_write.html](http://library.columbia.edu/locations/dssc/technology/spss_write.html) and
+                   [http://libguides.library.kent.edu/SPSS/home](http://libguides.library.kent.edu/SPSS/home)
+        - details: [http://www.spsstools.net/en/](http://www.spsstools.net/en/)
+                   but better its older sites [http://legacy.spsstools.net](http://legacy.spsstools.net)
 
 ------------------------------------------------------------
 
