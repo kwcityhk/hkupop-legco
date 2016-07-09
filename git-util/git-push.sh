@@ -17,6 +17,11 @@ git push
 #
 # sh git-push.sh ??any-message-for-commit??
 
+# other global commands but not run
+
+#    git config --global user.name "Your Name"
+#    git config --global user.email you@example.com
+
 # -- other helper links --
 
 # http://stackoverflow.com/questions/5343068/is-there-a-way-to-skip-password-typing-when-using-https-on-github
