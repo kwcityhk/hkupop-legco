@@ -31,7 +31,7 @@
 
 * Disclaimer and License
 
-    I have no relationship with the programme or HKU related to this programme.  There is no gurantee or expectataion of any correctness etc. on itis analysis.
+    I have no relationship with the programme or HKU related to this programme.  There is no gurantee or expectataion of any correctness etc. on its analysis.
 
     For the copyright of the data, you have to refer to hkupop.  I just heard today (9 July 2016 in a seminar) from Mr Robert Chung they release the data for pubic use but do not mention the license.  You can search for that web site for that information.
 
