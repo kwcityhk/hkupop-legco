@@ -27,6 +27,8 @@
 
     The data come from : https://www.hkupop.hku.hk/english/resources/dataset/lc/index.html
 
+    In particular I add some checksum (sha2 under mac os x); see the .md file there for details
+
 * Disclaimer and License
 
     I have no relationship with the programme or HKU related to this programme.  There is no gurantee or expectataion of any correctness etc. on itis analysis.
