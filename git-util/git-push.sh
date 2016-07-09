@@ -11,7 +11,9 @@ git push
 
 # -- to run --
 
-# sh git-util/git-push.sh
+# under linux or mac
+# 
+# sh git-util/git-push.sh any-message-for-commit
 
 # -- other helper links --
 
