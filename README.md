@@ -10,6 +10,7 @@
     - run that .sps file under pspp or spss
     - use a text editor you can observe how to recode e.g. the age to group and do cross-tabulation
     - learn spss (or pspp)
+      e.g. http://www.spsstools.net/en/ but better its older sites http://legacy.spsstools.net
 
 ------------------------------------------------------------
 
@@ -79,6 +80,12 @@
          (Good old days graphic; but obviously not very friendly in sharing knowledge but good to create files! See tutorial later.)
 
     -   Running command mode and this is how the sharing work in the longer term:
+
+        ```
+        cd pspp-run
+        pspp crosstab-sample-1.sps -o crosstab-sample-1.output.pdf
+    
+        ```
 
         
 
