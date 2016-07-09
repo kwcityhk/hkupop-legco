@@ -5,10 +5,13 @@
     - Assume you have install the pspp (or spss!)
     - see a green bar, on the right see the green button
         - clone or just download the zip files
-    - under the pspp-run there is a sample
-    - run that 
-    - it should tell you how to recode e.g. the age to group and do tabulation
+            - if you download you have to expand it
+    - under the pspp-run there is a sample spss synatx file (a file ended with .sps)
+    - run that .sps file under pspp or spss
+    - use a text editor you can observe how to recode e.g. the age to group and do cross-tabulation
     - learn spss (or pspp)
+
+------------------------------------------------------------
 
 * Purpose
 
