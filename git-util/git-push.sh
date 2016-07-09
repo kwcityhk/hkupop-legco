@@ -1,9 +1,17 @@
+git config --global push.default simple
+
 git config --global credential.helper cache
 git config --global credential.helper "cache --timeout=3600"
+
 git add *
 git commit -m "%1"
 git pull
+
 git push
+
+# -- to run --
+
+# sh git-util/git-push.sh
 
 # -- other helper links --
 
