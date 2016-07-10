@@ -85,11 +85,12 @@
 
         - you need to install X-windows (or X-servers) and also in general X-code and its command-line options ...
 
-    -   install under ubuntu 14.04.4 LTS desktop x64
+    -   install under ubuntu 14.04.4 LTS desktop x64 and also ubuntu 16.04 desktop x64
 
 		- just do this and I do NOT recommend to build from source; too many issues
 	
 			```
+			sudo apt-get upgrade
 			sudo apt-get install pspp
 			```
 		
