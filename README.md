@@ -76,18 +76,18 @@
             sudo port self-update
             ```
 
-        - you need to install X-windows and also in general X-code and its command-line options ...
+        - you need to install X-windows (or X-servers) and also in general X-code and its command-line options ...
 
     -   install under ubuntu 14.04.4 LTS desktop x64
 
-	- just do this and I do NOT recommend to build from source; too many issues
+		- just do this and I do NOT recommend to build from source; too many issues
 	
-		```
+			```
 			sudo apt-get install pspp
-		```
+			```
 		
-	- you have to find those syntax editor and output windows; 
-		hidden it even better than macOS X-server!
+		- you have to find those syntax editor and output windows; 
+			hidden it even better than macOS X-server!
 	
 * PSPP running	
 
