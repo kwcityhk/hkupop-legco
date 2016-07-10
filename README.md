@@ -2,12 +2,13 @@
 
 * Quick sampling
 
-    - Assume you have install the pspp (or spss!)
+    - Assume you have install the pspp (or spss!); if not go to the section below on how to install it for mac, linux or windows
     - see a green bar, on the right see the green button
         - clone or just download the zip files
             - if you download you have to expand it
-    - under the pspp-run there is a sample spss synatx file (a file ended with .sps)
-    - run that .sps file under pspp or spss
+    - under the pspp-run there is a sample directory call 1-sample
+        - there is a spss synatx file (a file ended with .sps)
+    - run that .sps file under pspp (graphic mode or in terminal) or spss
     - use a text editor you can observe how to recode e.g. the age to group and do cross-tabulation
     - learn spss (or pspp) e.g. 
         - basic:    [http://library.columbia.edu/locations/dssc/technology/spss_write.html](http://library.columbia.edu/locations/dssc/technology/spss_write.html) and
@@ -23,9 +24,13 @@
 
     - (To be updated)
     - Start to recode it first (see the recode sub-directory under pspp-run)
+    - under these variables and questionaire (some information are my trying to understand it in the .sps files under recode directory)
+
     - Deal with frequencies
     - Crosstab, graph, plot, ...
-    - Then ... 
+    - Weight, non-response rate, ... issues (see issues below)??? 
+
+    - Then ... (loop, data -> program -> statistics -> check -> analysis -> political analysis -> loop back)
 
 * Some issues involved
 
@@ -47,7 +52,9 @@
 
     I personally do not recommend to use csv.  One of the major obstacles of using other people's survey is the metadata e.g. what is missing data, what is the questions? what is "1" meant (M or F) etc.  He said they have that format as some kids may want it.  May be, but having done this kind of jobs since 1980 for academics, I do not bother to find out where is the csv. 
 
-    I do not recommend to use SPSS as once you go into visualaistion and better programming language ... R etc. or if you have the expensive SAS (do they have free one now, not sure).  Still SPSS .dat format is very common and given we have PSPP, it is ok.  Also, it is quite easy to use as statistical language go.  (The SPSS even now has python etc. languages.  Not sure about the PSPP though.)
+    I understand SPSS is good as it is easy for non-programmer.  This will use mainly here especially due to PSPP. 
+
+    Still, for visualaistion and better programming language ...I would suggest something like R etc. or if you have the expensive SAS (do they have free one now, not sure).  (The SPSS even now has python etc. languages.  Not sure about the PSPP though.)
 
     Well, may be it is just my rusty SPSS.  Also, unlike 40 years ago, no one paid me to do this or 20 years ago, try to help others, let us see how much incentives for doing this old software.  
 
@@ -59,7 +66,11 @@
 
 * Disclaimer and License
 
+    This work has nothing to do with my work and the organisation I work in.  Absolutely nothing.
+
     I have no relationship with the programme or HKU related to this programme.  There is no gurantee or expectataion of any correctness etc. on its analysis.
+
+    Any work done here is for the wider community and civil society.  It has nothing to do with politics per sec and any comment related to that would be deleted.  It is all about open data.
 
     For the copyright of the data, you have to refer to hkupop.  I just heard today (9 July 2016 in a seminar) from Mr Robert Chung they release the data for pubic use but do not mention the license.  You can search for that web site for that information.
 
