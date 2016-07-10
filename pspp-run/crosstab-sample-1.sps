@@ -25,11 +25,11 @@ SET HEADER YES.
 
 * Ubuntu full dfile name
 
-* GET FILE="/home/kwcityhk/my-git/hkupop-legco/hkupop.source.data/2012-legco-rolling-survey-RP2012.sav".
+ GET FILE="/home/kwcityhk/my-git/hkupop-legco/hkupop.source.data/2012-legco-rolling-survey-RP2012.sav".
 
 * Windows 7 full dfile name
 
-GET FILE="C:\Users\kwcity.hk\Documents\GitHub\hkupop-legco\hkupop.source.data\2012-legco-rolling-survey-RP2012.sav".
+*GET FILE="C:\Users\kwcity.hk\Documents\GitHub\hkupop-legco\hkupop.source.data\2012-legco-rolling-survey-RP2012.sav".
 
 
 
@@ -98,11 +98,11 @@ EXECUTE.
 
 * Ubuntu full file name
 
-* GET            FILE="/home/kwcityhk/my-git/hkupop-legco/pspp-run/2012-legco-rolling-survey-RP2012-running.sav".
+GET            FILE="/home/kwcityhk/my-git/hkupop-legco/pspp-run/2012-legco-rolling-survey-RP2012-running.sav".
 
 * WIndows 7 full file name
 
- GET            FILE="C:\Users\kwcity.hk\Documents\GitHub\hkupop-legco\pspp-run\2012-legco-rolling-survey-RP2012-running.sav".
+*  GET            FILE="C:\Users\kwcity.hk\Documents\GitHub\hkupop-legco\pspp-run\2012-legco-rolling-survey-RP2012-running.sav".
 
 Title "Crosstab using recoded datasets".
 
