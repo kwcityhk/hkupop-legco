@@ -54,6 +54,15 @@
     -   Refer to
 
         [https://www.gnu.org/software/pspp/](https://www.gnu.org/software/pspp/)
+		
+	-	Installation under Windows 7
+	
+		[https://www.gnu.org/software/pspp/get.html](https://www.gnu.org/software/pspp/get.html)
+		
+		choose 32 bit if not sure;  64 bit might be faster; I use PSPP_0.10.1_2016-04-01_32bits (even though under Windows 7 32 bits) ()
+		
+		The rest is the same
+		
 
     -   Installation under macOS
 
@@ -92,6 +101,10 @@
 * PSPP running	
 
     -   As the file convention are different, you have to edit the sample jobs file directory
+	
+	-	Also when download from windows use the default location Github under your Document folders, otherwise it may not work
+	
+	-	Once again the file convention is different for different OS e.g. / vs \ and location and even home folder name is different
 
     -   Running Graphic (Really have to find those other two windows I am afraid)
 
