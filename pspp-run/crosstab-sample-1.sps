@@ -10,13 +10,23 @@
 
 * the key is one you have one you can edit it and continue trying
 
-* GET FILE="/Users/kwcity.hk/my-git/hkupop-legco/hkupop.source.data/2012-legco-rolling-survey-(RP2012).sav".
 
 SET WIDTH 132.
 
 SET HEADER YES.
 
-GET FILE="../hkupop.source.data/2012-legco-rolling-survey-(RP2012).sav".
+* macOS full file name
+
+* GET FILE="/Users/kwcity.hk/my-git/hkupop-legco/hkupop.source.data/2012-legco-rolling-survey-RP2012.sav".
+
+* macOS relateive file name
+
+*GET FILE="../hkupop.source.data/2012-legco-rolling-survey-RP2012.sav".
+
+* Ubuntu full dfile name
+
+GET FILE="/home/kwcityhk/my-git/hkupop-legco/hkupop.source.data/2012-legco-rolling-survey-RP2012.sav".
+
 
 Title "Crosstab before recode".
 
@@ -62,12 +72,21 @@ CROSSTABS
 
 EXECUTE.
 
-SAVE OUTFILE = "../pspp-run/2012-legco-rolling-survey-(RP2012)-running.sav".
+* macOS relateive file name
 
+*SAVE OUTFILE = "../pspp-run/2012-legco-rolling-survey-RP2012-running.sav".
+
+* Ubuntu full file name
+
+SAVE OUTFILE = "/home/kwcityhk/my-git/hkupop-legco/pspp-run/2012-legco-rolling-survey-RP2012-running.sav".
 
 EXECUTE.
 
-GET FILE="../pspp-run/2012-legco-rolling-survey-(RP2012)-running.sav".
+* macOS relateive file name
+
+*GET FILE="../pspp-run/2012-legco-rolling-survey-RP2012-running.sav".
+
+GET            FILE="/home/kwcityhk/my-git/hkupop-legco/pspp-run/2012-legco-rolling-survey-RP2012-running.sav".
 
 Title "Crosstab using recoded datasets".
 

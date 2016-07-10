@@ -49,15 +49,15 @@
 
     -   I will try R later, but as Mr Chung has said about PSPP (and the dataset format is in SPSS .dat), I would try this first
 
-* PSPP installation
+* PSPP way
 
     -   Refer to
 
         [https://www.gnu.org/software/pspp/](https://www.gnu.org/software/pspp/)
 
-    -   Installation under macOS
+    -   Installation
 
-        under macOS, I am brave and use the latest version under El Captian 
+        under mac, I am brave and use the latest version under El Captian 
 
         ```
         sudo port install pspp-devel
@@ -78,22 +78,7 @@
 
         - you need to install X-windows and also in general X-code and its command-line options ...
 
-    -   install under ubuntu 14.04.4 LTS desktop x64
-
-	- just do this and I do NOT recommend to build from source; too many issues
-	
-		```
-			sudo apt-get install pspp
-		```
-		
-	- you have to find those syntax editor and output windows; 
-		hidden it even better than macOS X-server!
-	
-* PSPP running	
-
-    -   As the file convention are different, you have to edit the sample jobs file directory
-
-    -   Running Graphic (Really have to find those other two windows I am afraid)
+    -   Running Graphic
 
         ```
          psppire

@@ -3,7 +3,9 @@ git config --global push.default simple
 git config --global credential.helper cache
 git config --global credential.helper "cache --timeout=3600"
 
-git add *
+# not working git add * under ubuntu
+
+git add --all
 git commit -m "$1"
 git pull
 
