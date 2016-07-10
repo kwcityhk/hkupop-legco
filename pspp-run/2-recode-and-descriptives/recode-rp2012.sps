@@ -3,7 +3,8 @@
 * to run under terminal (mac or linux)
 
 * cd ~/my-git/hkupop-legco/pspp-run/2-recode-and-descriptives
-* pspp recode-rp2012.sps -o recode-rp2012-output.pdf
+* pspp recode-rp2012.sps -o recode-rp2012-output.pdf -e recode-rp2012-issue.txt
+* cat recode-rp2012-issue.txt
 
 
 * set paging info ------------
@@ -29,31 +30,38 @@ GET FILE="/Users/kwcity.hk/my-git/hkupop-legco/hkupop.source.data/2012-legco-rol
 * recoding -------------
 	
 RECODE	age1 
-			(  1 thru  5=1)    ( 6 thru 10=2) 
-			(11 thru 15=3)   (16 thru 20=4)
-			(21 thru 25=5)   (26 thru 30=6)
-			(31 thru 35=7)   (36 thru 40=8)
-			(41 thru 45=9)   (46 thru 50=10)
-			(51 thru 55=11) (56 thru 60=12)
-			(61 thru 65=13) (66 thru 70=14)
-			(71 thru 75=15) (76 thru 80=16)
-			(81 thru 98=17) (99            =99) 
-			INTO age1recode.
+			(18 thru 19= 1)
+			(20 thru 24= 2)  (25 thru 29=3)
+			(30 thru 34= 4)  (35 thru 39=5)
+			(40 thru 44= 6)  (45 thru 49=7)
+			(50 thru 54= 8)  (55 thru 59=9)
+			(60 thru 64=10)  (65 thru 69=11)
+			( 0 thru  4=81)  
+			( 5 thru  9=82) 
+			(10 thru 14=83)  
+			(15 thru 17=84)
+			(70 thru 98=12) 
+			(99        =99) 
+			INTO age1recode1.
 		
-VARIABLE LABELS age1recode 'Age Recoded'.
+VARIABLE LABELS age1recode1 'Age Recoded'.
 
-MISSING VALUES age1recode(99).
-VALUE LABELS age1recode
-   1 ' 1- 5'   2 ' 6-10'
-   3 '11-15'   4 '16-20'
-   5 '21-25'   6 '26-30'
-   7 '31-35'   8 '36-40'
-   9 '41-45'  10 '46-50'
-  11 '51-55'  12 '56-60'
-  13 '61-65'  14 '66-70'
-  15 '71-75'  16 '76-80'
-  17 '81+'  
+MISSING VALUES age1recode1(99).
+VALUE LABELS age1recode1
+   1 '18-19'   2 '20-24'
+   3 '25-29'   4 '30-34'
+   5 '35-39'   6 '40-44'
+   7 '45-49'   8 '50-54'
+   9 '55-59'  10 '60-64'
+  11 '65-69'  
+  12 '70-98'  
+  81 ' 0- 4'
+  82 ' 5- 9'  
+  83 '10-14'
+  84 '15-17'  
   99 '99 (Missing)'.
+  
+* cannot do ( 1 thru 17=.) 
 
 * save the recoded file -------------------
 
@@ -92,7 +100,7 @@ descriptives
                    R1 R2 R3 R4 R5 R6 R7 R7a R8 
                    v2a v2 v3 v4 
                    sex age1 age2 edu type housing occ income mid
-                   age1recode
+                   age1recode1 
  /statistics = mean stddev variance min max semean kurtosis skewness.
 
 EXECUTE.
@@ -107,7 +115,7 @@ examine
                    R1 R2 R3 R4 R5 R6 R7 R7a R8 
                    v2a v2 v3 v4 
                    sex age1 age2 edu type housing occ income mid
-                   age1recode
+                   age1recode1
  /plot boxplot histogram   
  /percentiles(5,10,25,50,75,90,95,99).
 
@@ -122,32 +130,66 @@ frequencies
                    R1 R2 R3 R4 R5 R6 R7 R7a R8 
                    v2a v2 v3 v4 
                    sex age1 age2 edu type housing occ income mid
-                   age1recode
+                   age1recode1
  /barchart
  /order variable.
 
 */format dfreq
 */format=avalue table
 * all
-*/variables=date to age1recode
+*/variables=date to age1recode1
 * /drop = 
 * /keep = 
 * no caseid ...
 
 EXECUTE.
 
+* mainly try to sense what is going on
 
+* more questions needed to check dataset is ok e.g
+* filter age = 18 and last year voting etc.
+
+* e.g. in the voting list some should vote in non-HK but answer HK list
 
 Title "Crosstab using recoded datasets".
 
 
 CROSSTABS 
-	/TABLES= age1recode	BY	 v4 v2a R1
+	/TABLES= age1recode1	BY	 q7, v4 v2a R1
 	/FORMAT=AVALUE TABLES PIVOT
 	/STATISTICS=CHISQ
 	/CELLS=COUNT ROW COLUMN TOTAL.
 
 EXECUTE.
+
+
+CROSSTABS 
+	/TABLES= district	BY	 district_vote
+	/FORMAT=AVALUE TABLES PIVOT
+	/STATISTICS=CHISQ
+	/CELLS=COUNT ROW COLUMN TOTAL.
+
+EXECUTE.
+
+* below 2 should filter by R1
+
+CROSSTABS 
+	/TABLES= district_vote	BY	 R1 to R6
+	/FORMAT=AVALUE TABLES PIVOT
+	/STATISTICS=CHISQ
+	/CELLS=COUNT ROW COLUMN TOTAL.
+
+EXECUTE.
+
+CROSSTABS 
+	/TABLES= district_vote	BY	 R7 to R8
+	/FORMAT=AVALUE TABLES PIVOT
+	/STATISTICS=CHISQ
+	/CELLS=COUNT ROW COLUMN TOTAL.
+
+EXECUTE.
+
+
 
 * variables 
 
@@ -199,5 +241,5 @@ EXECUTE.
 * mid			- DM7  : class !!!
 
 * * age1recode	- recode age to 1-5, 6-10 etc.
-				- ?? need to recode as age2 will have the remaining info!!!
+*				- ?? need to recode as age2 will have the remaining info!!!
                    
