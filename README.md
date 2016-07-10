@@ -19,6 +19,26 @@
                     but better its older sites 
                     [http://legacy.spsstools.net](http://legacy.spsstools.net)
 
+* How really to analysis it:
+
+    - (To be updated)
+    - Start to recode it first (see the recode sub-directory under pspp-run)
+    - Deal with frequencies
+    - Crosstab, graph, plot, ...
+    - Then ... 
+
+* Some issues involved
+
+    - General issues: examles http://andrewgelman.com/2016/06/24/brexit-polling-what-went-wrong/ is a good essay which you should read, in summary
+            1. Survey not representative sample 
+            2. Survey responses not voting intentions
+            3. "Shift in attitudes during the last day";
+            4. "Unpredicted patterns of voter turnout", especailly the pattern
+            5. sampling variability. 
+    - Having said that the prediction is not as bad, read the article
+    - It is not difficult but also not easy
+
+
 ------------------------------------------------------------
 
 * Purpose
