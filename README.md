@@ -61,8 +61,6 @@
 		
 		choose 32 bit if not sure;  64 bit might be faster; I use PSPP_0.10.1_2016-04-01_32bits (even though under Windows 7 32 bits) ()
 		
-		The rest is the same
-		
 
     -   Installation under macOS
 
