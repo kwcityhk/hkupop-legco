@@ -189,4 +189,5 @@ library(car)
 # http://stackoverflow.com/questions/30386065/how-to-use-rs-neuralnet-package-in-a-kaggle-competition-about-titanic
 # http://will-stanton.com/machine-learning-with-r-an-irresponsibly-fast-tutorial/
 # https://triangleinequality.wordpress.com/2013/09/05/a-complete-guide-to-getting-0-79903-in-kaggles-titanic-competition-with-python/
+# http://stats.stackexchange.com/questions/41771/r-libraries-for-deep-learning
 
