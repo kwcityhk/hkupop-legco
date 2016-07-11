@@ -10,6 +10,8 @@
         - there is a spss synatx file (a file ended with .sps)
     - run that .sps file under pspp (graphic mode or in terminal) or spss
     - use a text editor you can observe how to recode e.g. the age to group and do cross-tabulation
+    - more and in-depth .sps would be found in recode and description directory; 
+        especially look at to the **age5 variables (which merge age1 and age2; you need that to do your analysis)**
     - learn spss (or pspp) e.g. 
         - basic:    [http://library.columbia.edu/locations/dssc/technology/spss_write.html](http://library.columbia.edu/locations/dssc/technology/spss_write.html) and
                     [http://libguides.library.kent.edu/SPSS/home](http://libguides.library.kent.edu/SPSS/home)
@@ -50,11 +52,11 @@
 
     A personal study on the hkupopy web site contained Legco exit-poll and rolling survey results.
 
-    I personally do not recommend to use csv.  One of the major obstacles of using other people's survey is the metadata e.g. what is missing data, what is the questions? what is "1" meant (M or F) etc.  He said they have that format as some kids may want it.  May be, but having done this kind of jobs since 1980 for academics, I do not bother to find out where is the csv. 
+    I personally do not recommend to use csv.  One of the major obstacles of using other people's survey is the metadata e.g. what is missing data, what is the questions? what is "1" meant (M or F) etc.  TAKE AGE1 AND AGE2 as an example.  You have to combine the two togeher to form a full age group.  I knew he said they have that format as some kids may want it.  May be, but having done this kind of jobs since 1980 for academics, sorry I do not agree.  Hence, I do not even bother to find out where the .csv files are. 
 
-    I understand SPSS is good as it is easy for non-programmer.  This will use mainly here especially due to PSPP. 
+    I understand SPSS is good as it is easy for non-programmer.  This will use here mainly due to availability of PSPP. 
 
-    Still, for visualaistion and better programming language ...I would suggest something like R etc. or if you have the expensive SAS (do they have free one now, not sure).  (The SPSS even now has python etc. languages.  Not sure about the PSPP though.)
+    Still, for visualaistion and better programming language ...I would suggest something like R etc. or if you have the expensive SAS (do they have free one now, not sure).  Having said that, given the real SPSS now has python etc. languages, may be it is ok.  Not sure about the PSPP though.  SPSS is so COBOL like it is ... well, better the tools you know then the tool you don't I guess.
 
     Well, may be it is just my rusty SPSS.  Also, unlike 40 years ago, no one paid me to do this or 20 years ago, try to help others, let us see how much incentives for doing this old software.  
 
