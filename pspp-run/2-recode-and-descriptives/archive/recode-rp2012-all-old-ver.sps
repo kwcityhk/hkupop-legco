@@ -3,8 +3,8 @@
 * to run under terminal (mac or linux)
 
 * cd ~/my-git/hkupop-legco/pspp-run/2-recode-and-descriptives
-* pspp recode-rp2012.sps -o recode-rp2012-output.pdf -e recode-rp2012-issue.txt
-* cat recode-rp2012-issue.txt
+* pspp recode-rp2012-all.sps -o recode-rp2012-all-output.pdf -e recode-all-rp2012-issue.txt
+* cat recode-rp2012-all-issue.txt
 
 
 * set paging info ------------
