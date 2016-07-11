@@ -151,6 +151,7 @@
         ```
         cd pspp-run
         pspp crosstab-sample-1.sps -o crosstab-sample-1.output.pdf
+        pspp crosstab-sample-1.sps -o crosstab-sample-1.output.pdf -e crosstab-sample-1.issue.txt
     
         ```
 
