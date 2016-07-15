@@ -1,0 +1,4 @@
+Pre2016-as-pub-2016-07-15.sps:1.10-1.77: error: GET: Syntax error at `"/Users/kwcity.hk/my-git/hkupop-legco/hkupop.source.data/Pre...': Unterminated string constant.
+error: An error occurred while opening `pub': No such file or directory.
+Pre2016-as-pub-2016-07-15.sps:2.19-2.20: error: GET: Syntax error at `".': Unterminated string constant.
+Pre2016-as-pub-2016-07-15.sps:4: error: Stopping syntax file processing here to avoid a cascade of dependent command failures.
