@@ -61,6 +61,8 @@
     I understand SPSS is good as it is easy for non-programmer.  This will use here mainly due to availability of PSPP. 
 
     Still, for visualaistion and better programming language ...I would suggest something like R etc. or if you have the expensive SAS (do they have free one now, not sure).  Having said that, given the real SPSS now has python etc. languages, may be it is ok.  Not sure about the PSPP though.  SPSS is so COBOL like it is ... well, better the tools you know then the tool you don't I guess.  (Acutally after trying to do a few simple thing it turns out the easy one is easier in PSPP but not in R.  But the harder stuff is easier in SAS (at least in 1980s) and R.  
+    
+    BTW, R cannot read the .SAV file for some reasons.  To be investigated.  I have to use the csvy file.  
 
     Well, may be it is just my rusty SPSS.  Also, unlike 40 years ago, no one paid me to do this or 20 years ago, try to help others, let us see how much incentives for doing this old software.  
 
