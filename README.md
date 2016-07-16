@@ -1,5 +1,9 @@
 # Using hkupop-legco spss datasets
 
+* the io link is : https://kwcityhk.github.io/hkupop-legco/
+* the io link edit page is via setting (auto page) or : https://github.com/kwcityhk/hkupop-legco/generated_pages/new
+* the wiki is here: https://github.com/kwcityhk/hkupop-legco/wiki
+
 * Quick sampling
 
     - Assume you have install the pspp (or spss!); if not go to the section below on how to install it for mac, linux or windows
