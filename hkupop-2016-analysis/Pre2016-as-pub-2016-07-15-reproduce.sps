@@ -1,19 +1,11 @@
 * assume location of sps files: 
 
 * cd /Users/kwcity.hk/my-git/hkupop-legco/hkupop-2016-analysis/
-* pspp Pre2016-as-pub-2016-07-15-reproduce.sps -o Pre2016-as-pub-2016-07-15-reproduce.sps.output1.pdf -e Pre2016-as-pub-2016-07-15-reproduce.sps.error1.txt
+* pspp Pre2016-as-pub-2016-07-15-reproduce.sps -o Pre2016-as-pub-2016-07-15-reproduce.sps.output-weightornot2.pdf -e Pre2016-as-pub-2016-07-15-reproduce.sps.error-weightornot2.txt
 
-GET FILE="/Users/kwcity.hk/my-git/hkupop-legco/hkupop-2016-analysis/Pre2016-as-pub-2016-07-15.sav".
-	
-* ------------- weight only used for statistics -------------
+GET FILE="/Users/kwcity.hk/my-git/hkupop-legco/hkupop-2016-analysis/Pre2016-2_myWeight.sav".
 
-TITLE "NOT BY Weight"
-
-* WEIGHT BY weight.
-
-* ------------------------------------------------------------
-
-EXECUTE .
+TITLE "-- COMPUTE FILTER --".
 
 * example COMPUTE filter_$=(sex = 2 and age ge 25 and age le 50).
 
@@ -51,6 +43,73 @@ FORMAT SDC_filter_$ (f1.0).
 
 
 EXECUTE .
+
+
+TITLE "NOT BY Weight"
+
+FREQUENCIES
+	/VARIABLES= myWeight.
+
+TITLE "BY Weight"
+
+WEIGHT BY myWeight.
+
+TITLE "NO weight - SDC - bascially any one"
+
+USE ALL.  
+* filter and not filtering for Super District Council
+
+FREQUENCIES
+	/VARIABLES= q6 q7 q7_others
+	/FORMAT=DFREQ TABLE.
+
+FREQUENCIES
+	/VARIABLES= q6 q7 q7_others  
+	/MISSING=INCLUDE
+	/FORMAT=DFREQ TABLE.
+
+FREQUENCIES
+	/VARIABLES= sex agegp edugp inclin occgp income 
+	/MISSING=INCLUDE
+	/FORMAT=AVALUE TABLE.
+
+
+TITLE "NO weight - SDC - bascially any one"
+
+USE ALL.  
+FILTER BY SDC_filter_$.
+
+FREQUENCIES
+	/VARIABLES= q6 q7 q7_others
+	/FORMAT=DFREQ TABLE.
+
+FREQUENCIES
+	/VARIABLES= q6 q7 q7_others  
+	/MISSING=INCLUDE
+	/FORMAT=DFREQ TABLE.
+
+FREQUENCIES
+	/VARIABLES= sex agegp edugp inclin occgp income 
+	/MISSING=INCLUDE
+	/FORMAT=AVALUE TABLE.
+
+
+
+	
+* ------------- weight only used for statistics -------------
+
+TITLE "BY Weight"
+
+FREQUENCIES
+	/VARIABLES= myWeight.
+
+WEIGHT BY weight.
+
+* ------------------------------------------------------------
+
+EXECUTE .
+
+
 
 * date V1 S5 Q1 Q1_others Q2 Q2_others Q3 Q3_others Q4 Q4_others Q5
 * Q5_others Q6 Q7 Q7_others Q8 sex age1 age2 agegp edu edugp occ occgp inclin
