@@ -1,3 +1,5 @@
+# R CMD BATCH Pre2016-as-pub-2016-07-15_draft.R Pre2016-as-pub-2016-07-15_draft.R.output7.txt
+
 # has to deal with weight WEIGHT BY weight.
 
 # see var info md
@@ -72,6 +74,16 @@ sjt.xtab(legco2016_0715$sex, legco2016_0715$agegp,
           show.cell.prc = TRUE, show.row.prc=TRUE, show.col.prc =TRUE, show.exp = TRUE)
 
 sjt.xtab(legco2016_0715$sex, legco2016_0715$agegp)
+
+# output issues
+
+# https://strengejacke.wordpress.com/2014/03/04/beautiful-table-outputs-in-r-part-2-rstats-sjplot/
+# http://stackoverflow.com/questions/28660541/sjplot-sjt-frq-in-new-window-tab
+# http://www.statmethods.net/interface/io.html
+# http://www.r-bloggers.com/how-to-create-pdf-reports-with-r/
+
+# http://jeromyanglim.blogspot.hk/2010/11/sweave-tutorial-using-sweave-r-and-make.html
+
 
 # not working sjt.frq(as.data.frame(cbind(legco2016_0715_HK$Q1,legco2016_0715_HK$Q2,legco2016_0715_HK$Q3)),sort.frq = "des", string.na="Missing") 
 

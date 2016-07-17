@@ -1,0 +1,364 @@
+#!/usr/local/bin/Rscript
+# cd /Users/kwcity.hk/my-git/hkupop-legco/hkupop-2016-analysis
+# R CMD BATCH Pre2016-as-pub-2016-07-15_batch.R Pre2016-as-pub-2016-07-15_batch.R.00-issue.txt
+# or via shell
+# sh Pre2016-as-pub-2016-07-15_batch.sh
+
+
+
+#install.packages("rio")
+
+# R foreign (and rio?) package cannot import the hku spss .sav 
+
+library(rio)
+
+legco2016_0715 <- import("//Users/kwcity.hk/my-git/hkupop-legco/hkupop.source.data-2016/2016-07-15/LC2016PRE_dataset_v1_POP.csvy")
+
+
+##install.packages("sjPlot")
+##install.packages("sjmisc")
+ 
+##library(sjPlot) # require in functions
+##require(sjPlot)
+
+
+##table(legco2016_0715$S5)
+
+
+
+legco2016_0715_AllR <-  legco2016_0715[]  # lost labels
+
+cat("\n\n --- S5 -----\n")
+
+library(descr)
+attach(legco2016_0715_AllR)
+freq(S5, weight)
+cat("\n\n")
+
+attach(legco2016_0715)
+freq(S5, weight)
+cat("\n\n")
+
+
+legco2016_0715_HK   <-  subset(legco2016_0715, S5 ==  1)  # lost labels
+legco2016_0715_KlnW <-  subset(legco2016_0715, S5 ==  2)  # lost labels
+legco2016_0715_KlnE <-  subset(legco2016_0715, S5 ==  3)  # lost labels
+legco2016_0715_NTW  <-  subset(legco2016_0715, S5 ==  4)  # lost labels
+legco2016_0715_NTE  <-  subset(legco2016_0715, S5 ==  5)  # lost labels
+
+legco2016_0715_Q6_1  <-  subset(legco2016_0715, Q6 == 1)  # lost labels
+
+
+# # this generate html ... 
+# 
+# sjt.frq(legco2016_0715$S5, legco2016_0715$weight,string.na="Missing")
+# sjt.frq(legco2016_0715_AllR$S5, legco2016_0715_AllR$weight,string.na="Missing")
+# sjt.frq(legco2016_0715_HK$S5,legco2016_0715_HK$weight, string.na="Missing")
+# sjt.frq(legco2016_0715_KlnW$S5,legco2016_0715_KlnW$weight, string.na="Missing")
+# sjt.frq(legco2016_0715_KlnE$S5, legco2016_0715_KlnE$weight,string.na="Missing")
+# sjt.frq(legco2016_0715_NTW$S5, legco2016_0715_NTW$weight,string.na="Missing")
+# sjt.frq(legco2016_0715_NTE$S5, legco2016_0715_NTE$weight,string.na="Missing")
+# 
+# sjt.frq(legco2016_0715$Q1, legco2016_0715$weight,string.na="Missing")
+# sjt.frq(legco2016_0715_AllR$Q1, legco2016_0715_AllR$weight,string.na="Missing")
+# sjt.frq(legco2016_0715_HK$Q1,legco2016_0715_HK$weight, string.na="Missing")
+# sjt.frq(legco2016_0715_HK$Q1,legco2016_0715_HK$weight, string.na="Missing")
+
+#sjt.frq(legco2016_0715_KlnW$Q1,legco2016_0715_klnW$weight, string.na="Missing")
+#sjt.frq(legco2016_0715_KlnE$Q1,legco2016_0715_klnE$weight, string.na="Missing")
+#sjt.frq(legco2016_0715_NTW$Q1, legco2016_0715_NTW$weight,string.na="Missing")
+#sjt.frq(legco2016_0715_NTE$Q1, legco2016_0715_NTE$weight,string.na="Missing")
+
+
+# install.packages("descr")
+#library(descr)
+
+# --- try attach --- and later change to functions 3 variables legco2016_0715_KlnW / Q2 / Q2 others
+
+
+# reproduce <- function(dataSetUsed, mainQ, mainOthers) {
+# 
+#   # sinkfilenm <- paste("/Users/kwcity.hk/my-git/hkupop-legco/hkupop-2016-analysis/Pre2016-as-pub-2016-07-15_batch.R.",dataSetUsed,".sink.txt")
+#   # pdfilenm <- paste("/Users/kwcity.hk/my-git/hkupop-legco/hkupop-2016-analysis/Pre2016-as-pub-2016-07-15_batch.R.",dataSetUsed,".out.pdf")
+#   # 
+#   # cat("\n")
+#   # cat(sinkfilenm)
+#   # cat(",")
+#   # cat(pdfilenm)
+#   # cat("\n")
+#   # 
+#   # sink(sinkfilenm)  
+#   # pdf(pdfilenm)
+#   # 
+  require(descr)
+# 
+#   attach(dataSetUsed)
+#   
+#   cat(paste("\n========", dataSetUsed, "==============\n\n\n"))
+
+
+  cat("\n\n\n================== legco2016_0715_HK  =====================\n\n")
+
+  sink("/Users/kwcity.hk/my-git/hkupop-legco/hkupop-2016-analysis/Pre2016-as-pub-2016-07-15_batch.R.01-legco2016_0715_HK.sink.txt")
+  pdf("/Users/kwcity.hk/my-git/hkupop-legco/hkupop-2016-analysis/Pre2016-as-pub-2016-07-15_batch.R.01-legco2016_0715_HK.graph.pdf")
+
+attach(legco2016_0715_HK)
+
+  freq(S5, weight)
+           cat("\n\n")
+  freq(Q1, weight)
+           cat("\n\n")
+  freq(Q1_others, weight, user.missing = -99)
+                  cat("\n\n")
+  freq(Q1, weight, user.missing = c(-99, 8885, 8886, 8887, 8888))
+           cat("\n\n")
+  freq(sex, weight)
+            cat("\n\n")
+  freq(agegp, weight)
+              cat("\n\n")
+  freq(edugp, weight)
+              cat("\n\n")
+  freq(inclin, weight)
+               cat("\n\n")
+  freq(occgp, weight)
+              cat("\n\n")
+  freq(income, weight)
+              cat("\n\n")
+
+  sink()
+  dev.off()
+
+  cat("\n\n\n================== legco2016_0715_KlnW  =====================\n\n")
+  
+  
+  sink("/Users/kwcity.hk/my-git/hkupop-legco/hkupop-2016-analysis/Pre2016-as-pub-2016-07-15_batch.R.02-legco2016_0715_KlnW.sink.txt")
+  pdf("/Users/kwcity.hk/my-git/hkupop-legco/hkupop-2016-analysis/Pre2016-as-pub-2016-07-15_batch.R.02-legco2016_0715_KlnW.graph.pdf")
+  
+attach(legco2016_0715_KlnW)
+  
+  freq(S5, weight)
+  cat("\n\n")
+  freq(Q2, weight)
+  cat("\n\n")
+  freq(Q2_others, weight, user.missing = -99)
+  cat("\n\n")
+  freq(Q2, weight, user.missing = c(-99, 8885, 8886, 8887, 8888))
+  cat("\n\n")
+  freq(sex, weight)
+  cat("\n\n")
+  freq(agegp, weight)
+  cat("\n\n")
+  freq(edugp, weight)
+  cat("\n\n")
+  freq(inclin, weight)
+  cat("\n\n")
+  freq(occgp, weight)
+  cat("\n\n")
+  freq(income, weight)
+  cat("\n\n")
+  
+  
+  
+  
+  sink()
+  dev.off()  
+  
+  cat("\n\n\n================== legco2016_0715_KlnE  =====================\n\n")
+  
+  sink("/Users/kwcity.hk/my-git/hkupop-legco/hkupop-2016-analysis/Pre2016-as-pub-2016-07-15_batch.R.03-legco2016_0715_KlnE.sink.txt")
+  pdf("/Users/kwcity.hk/my-git/hkupop-legco/hkupop-2016-analysis/Pre2016-as-pub-2016-07-15_batch.R.03-legco2016_0715_KlnE.graph.pdf")
+  
+attach(legco2016_0715_KlnE)
+  
+  freq(S5, weight)
+  cat("\n\n")
+  freq(Q3, weight)
+  cat("\n\n")
+  freq(Q3_others, weight, user.missing = -99)
+  cat("\n\n")
+  freq(Q3, weight, user.missing = c(-99, 8885, 8886, 8887, 8888))
+  cat("\n\n")
+  freq(sex, weight)
+  cat("\n\n")
+  freq(agegp, weight)
+  cat("\n\n")
+  freq(edugp, weight)
+  cat("\n\n")
+  freq(inclin, weight)
+  cat("\n\n")
+  freq(occgp, weight)
+  cat("\n\n")
+  freq(income, weight)
+  cat("\n\n")
+  
+  sink()
+  dev.off()  
+  
+  cat("\n\n\n================== legco2016_0715_NTW  =====================\n\n")
+  
+  
+  sink("/Users/kwcity.hk/my-git/hkupop-legco/hkupop-2016-analysis/Pre2016-as-pub-2016-07-15_batch.R.04-legco2016_0715_NTW.sink.txt")
+  pdf("/Users/kwcity.hk/my-git/hkupop-legco/hkupop-2016-analysis/Pre2016-as-pub-2016-07-15_batch.R.04-legco2016_0715_NTW.graph.pdf")
+  
+attach(legco2016_0715_NTW)
+  
+  freq(S5, weight)
+  cat("\n\n")
+  freq(Q4, weight)
+  cat("\n\n")
+  freq(Q4_others, weight, user.missing = -99)
+  cat("\n\n")
+  freq(Q4, weight, user.missing = c(-99, 8885, 8886, 8887, 8888))
+  cat("\n\n")
+  freq(sex, weight)
+  cat("\n\n")
+  freq(agegp, weight)
+  cat("\n\n")
+  freq(edugp, weight)
+  cat("\n\n")
+  freq(inclin, weight)
+  cat("\n\n")
+  freq(occgp, weight)
+  cat("\n\n")
+  freq(income, weight)
+  cat("\n\n")
+  
+  sink()
+  dev.off()  
+  
+  cat("\n\n\n================== legco2016_0715_NTE  =====================\n\n")
+  
+  
+  sink("/Users/kwcity.hk/my-git/hkupop-legco/hkupop-2016-analysis/Pre2016-as-pub-2016-07-15_batch.R.05-legco2016_0715_NTE.sink.txt")
+  pdf("/Users/kwcity.hk/my-git/hkupop-legco/hkupop-2016-analysis/Pre2016-as-pub-2016-07-15_batch.R.05-legco2016_0715_NTE.graph.pdf")
+  
+attach(legco2016_0715_NTE)
+  
+  freq(S5, weight)
+  cat("\n\n")
+  freq(Q5, weight)
+  cat("\n\n")
+  freq(Q5_others, weight, user.missing = -99)
+  cat("\n\n")
+  freq(Q5, weight, user.missing = c(-99, 8885, 8886, 8887, 8888))
+  cat("\n\n")
+  freq(sex, weight)
+  cat("\n\n")
+  freq(agegp, weight)
+  cat("\n\n")
+  freq(edugp, weight)
+  cat("\n\n")
+  freq(inclin, weight)
+  cat("\n\n")
+  freq(occgp, weight)
+  cat("\n\n")
+  freq(income, weight)
+  cat("\n\n")
+  
+  sink()
+  dev.off()  
+  
+  
+  
+# } 
+# 
+  
+  cat("\n\n\n================== Super D C   =====================\n\n")
+  
+
+  sink("/Users/kwcity.hk/my-git/hkupop-legco/hkupop-2016-analysis/Pre2016-as-pub-2016-07-15_batch.R.06-superDC.sink.txt")
+  pdf("/Users/kwcity.hk/my-git/hkupop-legco/hkupop-2016-analysis/Pre2016-as-pub-2016-07-15_batch.R.06-superDC.graph.pdf")
+  
+attach(legco2016_0715_AllR)
+  
+  freq(Q6)
+           cat("\n\n")
+  
+  freq(Q7)
+           cat("\n\n")
+  
+  freq(Q7_others, user.missing = -99)
+                  cat("\n\n")
+           
+  freq(Q7, user.missing = c(-99, 8885, 8886, 8887, 8888))
+                  cat("\n\n")
+  
+attach(legco2016_0715_Q6_1)  
+                  
+  # seems not using weight here ...
+                  
+                  
+  freq(Q6) # double check
+            cat("\n\n")
+  
+  freq(Q7, user.missing = c(-99))
+            cat("\n\n")                
+            
+                            
+  freq(Q7, user.missing = c(-99, 8885, 8886, 8887, 8888))
+                  cat("\n\n")                
+  
+  freq(sex)
+              cat("\n\n")
+  freq(agegp)
+              cat("\n\n")
+  freq(edugp)
+              cat("\n\n")
+  freq(inclin)
+              cat("\n\n")
+  freq(occgp)
+              cat("\n\n")
+  freq(income)
+              cat("\n\n")
+  
+  
+  sink()
+  dev.off()  
+  
+  sink("/Users/kwcity.hk/my-git/hkupop-legco/hkupop-2016-analysis/Pre2016-as-pub-2016-07-15_batch.R.07-all.sink.txt")
+  pdf("/Users/kwcity.hk/my-git/hkupop-legco/hkupop-2016-analysis/Pre2016-as-pub-2016-07-15_batch.R.07-all.graph.pdf")
+  
+                              
+cat("\n\n\n================== Everyone and Q8 is by further samples (not sure)   =====================\n\n")
+              
+                  
+attach(legco2016_0715_AllR)   
+
+  freq(Q6, weight)  # ??? cannot generate 7; also why Q8 using weight but not Q7 ... SPSS error 2 be fixed
+          cat("\n\n")
+  
+  freq(Q8, weight)
+           cat("\n\n")
+           
+  freq(Q8, weight, user.missing = c(NA))
+           cat("\n\n")
+           
+
+  freq(Q8, weight, user.missing = c(-99))
+           cat("\n\n")
+           
+  freq(Q8, weight, user.missing = c(-99, 8885, 8886, 8887, 8888))
+           cat("\n\n")
+  
+  freq(Q8, weight, user.missing = c(-99, 8885, 8886, 8887, 8888, NA))
+           cat("\n\n")
+           
+                    
+  freq(sex, weight)
+            cat("\n\n")
+  freq(agegp, weight)
+            cat("\n\n")
+  freq(edugp, weight)
+            cat("\n\n")
+  freq(inclin, weight)
+            cat("\n\n")
+  freq(occgp, weight)
+            cat("\n\n")
+  freq(income, weight)
+            cat("\n\n")
+    
+cat("\n\n\n================== end trying reproducting the same data  =====================\n\n")
+  
+  sink()
+  dev.off()  
+  
