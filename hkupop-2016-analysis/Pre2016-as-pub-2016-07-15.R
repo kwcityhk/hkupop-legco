@@ -81,7 +81,7 @@ library(descr)
 freq(legco2016_0715$Q1)
 freq(legco2016_0715$Q1,user.missing=NA)
 freq(legco2016_0715$Q1,user.missing=-99)
-freq(legco2016_0715$Q1,user.missing=c(-99,NA))
+freq(legco2016_0715$Q1,user.missing=c(-99,NA)) 
 freq(legco2016_0715_HK$Q1,user.missing=-99)
 
 # last resort -> http://stackoverflow.com/questions/20141718/r-table-outputs-like-spss-plus-export-to-ms-word
