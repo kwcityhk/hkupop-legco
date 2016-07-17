@@ -41,6 +41,20 @@
 <ul>
 <li><p>the pdf (very ugly sure but will be improved, promise) :   <a href="https://github.com/kwcityhk/hkupop-legco/blob/master/hkupop-2016-analysis/Pre2016-as-pub-2016-07-15-reproduce.sps.output1.pdf">https://github.com/kwcityhk/hkupop-legco/blob/master/hkupop-2016-analysis/Pre2016-as-pub-2016-07-15-reproduce.sps.output1.pdf</a></p></li>
 <li><p>the pspp syntax file:   <a href="https://github.com/kwcityhk/hkupop-legco/blob/master/hkupop-2016-analysis/Pre2016-as-pub-2016-07-15-reproduce.sps">https://github.com/kwcityhk/hkupop-legco/blob/master/hkupop-2016-analysis/Pre2016-as-pub-2016-07-15-reproduce.sps</a></p></li>
+<li><p>during the R reproduction found that the weight was not used for the Q7 and Q7_others (SupreDC part).  The SPSS missed that.  The R has not.</p></li>
+<li><p>.R file is here: <a href="https://github.com/kwcityhk/hkupop-legco/blob/master/hkupop-2016-analysis/Pre2016-as-pub-2016-07-15_batch.R">https://github.com/kwcityhk/hkupop-legco/blob/master/hkupop-2016-analysis/Pre2016-as-pub-2016-07-15_batch.R</a></p></li>
+<li>
+<p>the output of the R has been seperated as here:</p>
+
+<p>-- HK Island: <a href="https://github.com/kwcityhk/hkupop-legco/blob/master/hkupop-2016-analysis/Pre2016-as-pub-2016-07-15_batch.R.01-legco2016_0715_HK.sink.txt">https://github.com/kwcityhk/hkupop-legco/blob/master/hkupop-2016-analysis/Pre2016-as-pub-2016-07-15_batch.R.01-legco2016_0715_HK.sink.txt</a>
+-- Kowloon West: <a href="https://github.com/kwcityhk/hkupop-legco/blob/master/hkupop-2016-analysis/Pre2016-as-pub-2016-07-15_batch.R.02-legco2016_0715_KlnW.sink.txt">https://github.com/kwcityhk/hkupop-legco/blob/master/hkupop-2016-analysis/Pre2016-as-pub-2016-07-15_batch.R.02-legco2016_0715_KlnW.sink.txt</a>
+-- Kowloon East: <a href="https://github.com/kwcityhk/hkupop-legco/blob/master/hkupop-2016-analysis/Pre2016-as-pub-2016-07-15_batch.R.03-legco2016_0715_KlnE.sink.txt">https://github.com/kwcityhk/hkupop-legco/blob/master/hkupop-2016-analysis/Pre2016-as-pub-2016-07-15_batch.R.03-legco2016_0715_KlnE.sink.txt</a>
+-- NT West: <a href="https://github.com/kwcityhk/hkupop-legco/blob/master/hkupop-2016-analysis/Pre2016-as-pub-2016-07-15_batch.R.04-legco2016_0715_NTW.sink.txt">https://github.com/kwcityhk/hkupop-legco/blob/master/hkupop-2016-analysis/Pre2016-as-pub-2016-07-15_batch.R.04-legco2016_0715_NTW.sink.txt</a>
+-- NT East: <a href="https://github.com/kwcityhk/hkupop-legco/blob/master/hkupop-2016-analysis/Pre2016-as-pub-2016-07-15_batch.R.05-legco2016_0715_NTE.sink.txt">https://github.com/kwcityhk/hkupop-legco/blob/master/hkupop-2016-analysis/Pre2016-as-pub-2016-07-15_batch.R.05-legco2016_0715_NTE.sink.txt</a>
+-- Super DC: <a href="https://github.com/kwcityhk/hkupop-legco/blob/master/hkupop-2016-analysis/Pre2016-as-pub-2016-07-15_batch.R.06-superDC.sink.txt">https://github.com/kwcityhk/hkupop-legco/blob/master/hkupop-2016-analysis/Pre2016-as-pub-2016-07-15_batch.R.06-superDC.sink.txt</a>
+-- All: <a href="https://github.com/kwcityhk/hkupop-legco/blob/master/hkupop-2016-analysis/Pre2016-as-pub-2016-07-15_batch.R.07-all.sink.txt">https://github.com/kwcityhk/hkupop-legco/blob/master/hkupop-2016-analysis/Pre2016-as-pub-2016-07-15_batch.R.07-all.sink.txt</a>
+-- issue-log <a href="https://github.com/kwcityhk/hkupop-legco/blob/master/hkupop-2016-analysis/Pre2016-as-pub-2016-07-15_batch.R.00-issue.txt">https://github.com/kwcityhk/hkupop-legco/blob/master/hkupop-2016-analysis/Pre2016-as-pub-2016-07-15_batch.R.00-issue.txt</a></p>
+</li>
 </ul>
 </li>
 </ul>
@@ -50,13 +64,40 @@
 
 <ul>
 <li><p>ask for district and district grouping as this is missing in the raw data but in other 2 (2008 and 2012)</p></li>
+<li><p>fix SPSS</p></li>
+<li><p>If I were paid as it was in 1985-87, may be I would tidy up the number but no</p></li>
+<li><p>Still some figures I cannot generate e.g. the 7 of -99 under Q6</p></li>
+<li><p>Also, the function part of R need to be bushed up!</p></li>
 <li>
-<p>many but at least</p>
+<p>Otherwise wonder </p>
+
+<p>-- why not weight the Super DC
+-- ...</p>
+</li>
+<li>
+<p>SPSS side many but at least</p>
 
 <ul>
 <li>fix the missing case scenario; data is there but not my commands</li>
 <li>fix the title issues or may be separate into multiple run and multiple pdf (too hard to read all tables)</li>
 <li>some pie chart like the analysis (even though the analysis is really part of the table)</li>
+</ul>
+</li>
+</ul>
+
+<h3>
+<a id="analysis" class="anchor" href="#analysis" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Analysis</h3>
+
+<ul>
+<li><p>The key is not to reproduce but to analysis</p></li>
+<li>
+<p>topic</p>
+
+<ul>
+<li>in 2008 and 2012 does people change greatly during the time and the pattern is used in 2016?</li>
+<li>some analysis of the political inclination and the election list and other profiles ...</li>
+<li>oh no chi sq, f-test, ... </li>
+<li>or machine learning ...</li>
 </ul>
 </li>
 </ul>
