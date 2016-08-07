@@ -1,15 +1,6 @@
 
 
 
-================== Everyone and Q8 is by further samples (not sure)   =====================
-
-
-
-
-
-
-
-
 
 
 
@@ -41,9 +32,4 @@ Total   1056.00 100.000       100.000
 
 
 
-
-
-
-
-================== end trying reproducting the same data  =====================
 
