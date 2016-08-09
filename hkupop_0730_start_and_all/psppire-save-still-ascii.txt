@@ -1,0 +1,16 @@
+(psppire:37798): Gtk-WARNING **: Allocating size to GtkSeparatorToolItem 0x7fd5090a4d90 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
+Warning: cannot create a converter for `Mac-CentralEurope' to `UTF-8': Invalid argument
+Warning: cannot create a converter for `ISO-IR-111' to `UTF-8': Invalid argument
+Warning: cannot create a converter for `MacUkrainian' to `UTF-8': Invalid argument
+Warning: cannot create a converter for `GEOSTD8' to `UTF-8': Invalid argument
+Warning: cannot create a converter for `MacGujarati' to `UTF-8': Invalid argument
+Warning: cannot create a converter for `MacGurmukhi' to `UTF-8': Invalid argument
+Warning: cannot create a converter for `ISO-8859-8-I' to `UTF-8': Invalid argument
+Warning: cannot create a converter for `MacDevangari' to `UTF-8': Invalid argument
+Warning: cannot create a converter for `MacIcelandic' to `UTF-8': Invalid argument
+Warning: cannot create a converter for `MacRomanian' to `UTF-8': Invalid argument
+Warning: cannot create a converter for `TVCN' to `UTF-8': Invalid argument
+Warning: cannot create a converter for `VPS' to `UTF-8': Invalid argument
+
+(psppire:37798): Gtk-WARNING **: Could not load a pixbuf from /org/gtk/libgtk/theme/Adwaita/assets/check-symbolic.svg.
+This may indicate that pixbuf loaders or the mime database could not be found.

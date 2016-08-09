@@ -6,7 +6,7 @@ File header record:
 	  Number of cases: 1392
 	 Compression bias: 100
 	    Creation date: 09 Aug 16
-	    Creation time: 22:25:00
+	    Creation time: 23:15:50
 	       File label: ""
 000000b4: variable record #0
 	Width: 0 (numeric)
