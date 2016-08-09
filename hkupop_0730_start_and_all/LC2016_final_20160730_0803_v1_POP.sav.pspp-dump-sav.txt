@@ -1,0 +1,671 @@
+File header record:
+	     Product name: @(#) IBM SPSS STATISTICS 64-bit MS Windows 24.0.0.0         
+	      Layout code: 2
+	       Compressed: 1 (simple compression)
+	     Weight index: 25
+	  Number of cases: 1056
+	 Compression bias: 100
+	    Creation date: 04 Aug 16
+	    Creation time: 19:16:27
+	       File label: ""
+000000b4: variable record #0
+	Width: 0 (numeric)
+	Variable label: 0
+	Missing values code: 0 (no missing values)
+	Print format: 050400 (F4.0)
+	Write format: 050400 (F4.0)
+	Name: CASEID
+000000d4: variable record #1
+	Width: 0 (numeric)
+	Variable label: 0
+	Missing values code: 0 (no missing values)
+	Print format: 050800 (F8.0)
+	Write format: 050800 (F8.0)
+	Name: DATE
+000000f4: variable record #2
+	Width: 0 (numeric)
+	Variable label: 1
+	Missing values code: 1 (one missing value)
+	Print format: 050400 (F4.0)
+	Write format: 050400 (F4.0)
+	Name: R1
+	00000110 Variable label: "[R1]  今年既立法會選舉將在9月4日舉行，請問你會唔會去投票？ "
+	00000168 Missing values: -99
+00000174: variable record #3
+	Width: 0 (numeric)
+	Variable label: 1
+	Missing values code: 1 (one missing value)
+	Print format: 050400 (F4.0)
+	Write format: 050400 (F4.0)
+	Name: R1GP
+	00000190 Variable label: "[R1]  今年既立法會選舉將在9月4日舉行，請問你會唔會去投票？ "
+	000001e8 Missing values: -99
+000001f4: variable record #4
+	Width: 0 (numeric)
+	Variable label: 1
+	Missing values code: 1 (one missing value)
+	Print format: 050400 (F4.0)
+	Write format: 050400 (F4.0)
+	Name: R2
+	00000210 Variable label: "[R2] (只問香港島選民)係黎緊既立法會地區直選有以下名單參選，你傾向支持邊張名單呢？"
+	0000028c Missing values: -99
+00000298: variable record #5
+	Width: 0 (numeric)
+	Variable label: 1
+	Missing values code: 1 (one missing value)
+	Print format: 050400 (F4.0)
+	Write format: 050400 (F4.0)
+	Name: R3
+	000002b4 Variable label: "[R3] (只問九龍西選民)係黎緊既立法會地區直選有以下名單參選，你傾向支持邊張名單呢？"
+	00000330 Missing values: -99
+0000033c: variable record #6
+	Width: 0 (numeric)
+	Variable label: 1
+	Missing values code: 1 (one missing value)
+	Print format: 050400 (F4.0)
+	Write format: 050400 (F4.0)
+	Name: R4
+	00000358 Variable label: "[R4] (只問九龍東選民)係黎緊既立法會地區直選有以下名單參選，你傾向支持邊張名單呢？"
+	000003d4 Missing values: -99
+000003e0: variable record #7
+	Width: 0 (numeric)
+	Variable label: 1
+	Missing values code: 1 (one missing value)
+	Print format: 050400 (F4.0)
+	Write format: 050400 (F4.0)
+	Name: R5
+	000003fc Variable label: "[R5] (只問新界西選民)係黎緊既立法會地區直選有以下名單參選，你傾向支持邊張名單呢？"
+	00000478 Missing values: -99
+00000484: variable record #8
+	Width: 0 (numeric)
+	Variable label: 1
+	Missing values code: 1 (one missing value)
+	Print format: 050400 (F4.0)
+	Write format: 050400 (F4.0)
+	Name: R6
+	000004a0 Variable label: "[R6] (只問新界東選民)係黎緊既立法會地區直選有以下名單參選，你傾向支持邊張名單呢？"
+	0000051c Missing values: -99
+00000528: variable record #9
+	Width: 0 (numeric)
+	Variable label: 1
+	Missing values code: 1 (one missing value)
+	Print format: 050400 (F4.0)
+	Write format: 050400 (F4.0)
+	Name: R7
+	00000544 Variable label: "[R7] (問所有人) 請問你係唔係區議會(二) 功能界別，俗稱「超級區議會」既登記選民呢？"
+	000005bc Missing values: -99
+000005c8: variable record #10
+	Width: 0 (numeric)
+	Variable label: 1
+	Missing values code: 1 (one missing value)
+	Print format: 050400 (F4.0)
+	Write format: 050400 (F4.0)
+	Name: R7A
+	000005e4 Variable label: "[R7a] 咁你係唔係其他功能界別選民？"
+	00000618 Missing values: -99
+00000624: variable record #11
+	Width: 0 (numeric)
+	Variable label: 1
+	Missing values code: 1 (one missing value)
+	Print format: 050400 (F4.0)
+	Write format: 050400 (F4.0)
+	Name: R8
+	00000640 Variable label: "[R8] 假如你可以係黎緊既區議會(二) 功能界別，俗稱「超級區議會」選舉中投票，而此界別有以下名單參選，你傾向支持邊張名單呢？"
+	000006f4 Missing values: -99
+00000700: variable record #12
+	Width: 0 (numeric)
+	Variable label: 1
+	Missing values code: 1 (one missing value)
+	Print format: 050400 (F4.0)
+	Write format: 050400 (F4.0)
+	Name: R9
+	0000071c Variable label: "[R9] (問所有人)  請問你係上次 (2012年) 立法會選舉中有冇投票呢？"
+	00000778 Missing values: -99
+00000784: variable record #13
+	Width: 0 (numeric)
+	Variable label: 1
+	Missing values code: 1 (one missing value)
+	Print format: 050400 (F4.0)
+	Write format: 050400 (F4.0)
+	Name: R10
+	000007a0 Variable label: "[R10] (問所有人) 你認為自己既政治取向，係傾向認同邊一個派別呢？"
+	00000800 Missing values: -99
+0000080c: variable record #14
+	Width: 0 (numeric)
+	Variable label: 1
+	Missing values code: 1 (one missing value)
+	Print format: 050400 (F4.0)
+	Write format: 050400 (F4.0)
+	Name: SEX
+	00000828 Variable label: "[DM1] 性別"
+	00000838 Missing values: -99
+00000844: variable record #15
+	Width: 0 (numeric)
+	Variable label: 1
+	Missing values code: 1 (one missing value)
+	Print format: 050400 (F4.0)
+	Write format: 050400 (F4.0)
+	Name: AGE1
+	00000860 Variable label: "[DM2] 請問您今年幾多歲呢?"
+	00000888 Missing values: -99
+00000894: variable record #16
+	Width: 0 (numeric)
+	Variable label: 1
+	Missing values code: 1 (one missing value)
+	Print format: 050400 (F4.0)
+	Write format: 050400 (F4.0)
+	Name: AGE2
+	000008b0 Variable label: "[DM2] 年齡"
+	000008c0 Missing values: -99
+000008cc: variable record #17
+	Width: 0 (numeric)
+	Variable label: 1
+	Missing values code: 1 (one missing value)
+	Print format: 050400 (F4.0)
+	Write format: 050400 (F4.0)
+	Name: AGEGP2
+	000008e8 Variable label: "[DM2] 年齡"
+	000008f8 Missing values: -99
+00000904: variable record #18
+	Width: 0 (numeric)
+	Variable label: 1
+	Missing values code: 1 (one missing value)
+	Print format: 050400 (F4.0)
+	Write format: 050400 (F4.0)
+	Name: AGEGP45
+	00000920 Variable label: "[DM2] 年齡"
+	00000930 Missing values: -99
+0000093c: variable record #19
+	Width: 0 (numeric)
+	Variable label: 1
+	Missing values code: 1 (one missing value)
+	Print format: 050400 (F4.0)
+	Write format: 050400 (F4.0)
+	Name: EDUGP_TP
+	00000958 Variable label: "[DM3] 教育程度"
+	00000970 Missing values: -99
+0000097c: variable record #20
+	Width: 0 (numeric)
+	Variable label: 1
+	Missing values code: 1 (one missing value)
+	Print format: 050400 (F4.0)
+	Write format: 050400 (F4.0)
+	Name: OCCGP
+	00000998 Variable label: "[DM4] 職位"
+	000009a8 Missing values: -99
+000009b4: variable record #21
+	Width: 0 (numeric)
+	Variable label: 1
+	Missing values code: 1 (one missing value)
+	Print format: 050400 (F4.0)
+	Write format: 050400 (F4.0)
+	Name: INCOMEGP
+	000009d0 Variable label: "[DM5] 個人收入"
+	000009e8 Missing values: -99
+000009f4: variable record #22
+	Width: 0 (numeric)
+	Variable label: 1
+	Missing values code: 1 (one missing value)
+	Print format: 050400 (F4.0)
+	Write format: 050400 (F4.0)
+	Name: MIDGP
+	00000a10 Variable label: "[DM6] 階層"
+	00000a20 Missing values: -99
+00000a2c: variable record #23
+	Width: 0 (numeric)
+	Variable label: 1
+	Missing values code: 1 (one missing value)
+	Print format: 050400 (F4.0)
+	Write format: 050400 (F4.0)
+	Name: DISTRICT
+	00000a48 Variable label: "[DM7] 咁你係咪即係XXX區既登記選民呢？"
+	00000a80 Missing values: -99
+00000a8c: variable record #24
+	Width: 0 (numeric)
+	Variable label: 1
+	Missing values code: 0 (no missing values)
+	Print format: 050807 (F8.7)
+	Write format: 050807 (F8.7)
+	Name: WEIGHT
+	00000aa8 Variable label: "加權比重"
+00000abc: value labels record
+	-99/"": "拒答"
+	1/"": "肯定會"
+	2/"": "多數會"
+	3/"": "多數唔會"
+	4/"": "肯定唔會"
+	8886/"": "未決定（先追問「多數會定多數唔會」）"
+	8888/"": "唔知∕難講"
+	00000b8c: apply to variables #3
+00000b98: value labels record
+	-99/"": "R1gp 拒答"
+	1/"": "R1gp 會"
+	3/"": "R1gp 唔會"
+	8886/"": "R1gp 未決定（先追問「多數會定多數唔會」）"
+	8888/"": "R1gp 唔知／難講"
+	00000c50: apply to variables #4
+00000c5c: value labels record
+	-99/"": "拒答"
+	1/"": "1號民主思路既黃梓謙 名單"
+	2/"": "2號人民力量既劉嘉鴻、袁彌明 名單"
+	3/"": "3號新民黨既葉劉淑儀、陳家珮 名單"
+	4/"": "4號工黨既何秀蘭、麥德正 名單"
+	5/"": "5號民建聯既張國鈞、鍾樹根 名單"
+	6/"": "6號獨立參選既詹培忠 名單"
+	7/"": "7號熱血公民既鄭錦滿、鍾琬媛 名單"
+	8/"": "8號香港眾志既羅冠聰 名單"
+	9/"": "9號獨立參選既沈志超 名單"
+	10/"": "10號獨立參選既王維基 名單"
+	11/"": "11號獨立參選既徐子見 名單"
+	12/"": "12號獨立參選既司馬文 名單"
+	13/"": "13號民主黨既許智峯、單仲偕 名單"
+	14/"": "14號公民黨既陳淑莊、鄭達鴻 名單"
+	15/"": "15號工聯會既郭偉强、吳秋北 名單"
+	1001/"": "保守黨既賴綺雯 名單"
+	8886/"": "HKI - 唔會投票"
+	8887/"": "HKI - 唔會支持任何政黨或候選人／投白票"
+	8888/"": "HKI - 未決定／唔知／難講"
+	0000103c: apply to variables #5
+00001048: value labels record
+	-99/"": "拒答"
+	1/"": "1號社民連既吳文遠 名單"
+	2/"": "2號本土力量既何志光 名單"
+	3/"": "3號公民黨既毛孟靜、李俊晞 名單"
+	4/"": "4號經民聯既梁美芬、梁文廣 名單"
+	5/"": "5號民協既譚國僑、楊彧 名單"
+	6/"": "6號維園衝鋒既朱韶洪 名單"
+	7/"": "7號普羅政治學苑既黃毓民、馬愉生 名單"
+	8/"": "8號民主黨既黃碧雲、袁海文名單"
+	9/"": "9號獨立參選既林依麗、區咏豪 名單"
+	10/"": "10號民建聯既蔣麗芸、葉傲冬 名單"
+	11/"": "11號獨立參選既關新偉、高志強 名單"
+	12/"": "12號小麗民主教室既劉小麗 名單"
+	13/"": "13號青年新政既游蕙禎 名單"
+	14/"": "14號獨立參選既李泳漢、符偉樂 名單"
+	15/"": "15號新思維既狄志遠、黃俊瑯 名單"
+	8886/"": "KLW - 唔會投票"
+	8887/"": "KLW - 唔會支持任何政黨或候選人／投白票"
+	8888/"": "KLW - 未決定／唔知／難講"
+	00001428: apply to variables #6
+00001434: value labels record
+	-99/"": "拒答"
+	1/"": "1號工聯會既黃國健、周聯僑 名單"
+	2/"": "2號工黨既胡穗珊、趙仕信 名單"
+	3/"": "3號愛港之聲既高達斌 名單"
+	4/"": "4號前綫既譚香文 名單"
+	5/"": "5號獨立參選既謝偉俊 名單"
+	6/"": "6號民建聯既柯創盛、黎榮浩 名單"
+	7/"": "7號獨立參選既呂永基 名單"
+	8/"": "8號民主黨既胡志偉、莫建成 名單"
+	9/"": "9號公民黨既譚文豪、梁家傑名單"
+	10/"": "10號熱血公民既黃洋達 名單"
+	11/"": "11號東九龍社區關注組既陳澤滔 名單"
+	12/"": "12號人民力量既譚得志 名單"
+	8886/"": "KLE - 唔會投票"
+	8887/"": "KLE - 唔會支持任何政黨或候選人／投白票"
+	8888/"": "KLE - 未決定／唔知／難講"
+	0000174c: apply to variables #7
+00001758: value labels record
+	-99/"": "拒答"
+	1/"": "1號街工既黃潤達、梁靜珊 名單"
+	2/"": "2號民主黨既尹兆堅、何俊仁 名單"
+	3/"": "3號香港政研會既高志輝、鄧德成 名單"
+	4/"": "4號自由黨既周永勤 名單"
+	5/"": "5號熱血公民既鄭松泰、張耀心 名單"
+	6/"": "6號獨立參選既鄺官穩 名單"
+	7/"": "7號新民黨既田北辰、王威信 名單"
+	8/"": "8號獨立參選既何君堯 名單"
+	9/"": "9號民建聯既梁志祥、呂堅 名單"
+	10/"": "10號公民黨既郭家麒、冼豪輝 名單"
+	11/"": "11號社民連／人民力量既黃浩銘、陳偉業 名單"
+	12/"": "12號工黨既李卓人、趙恩來 名單"
+	13/"": "13號青年新政既黃俊傑、王百羽 名單"
+	14/"": "14號工聯會既麥美娟、姚國威 名單"
+	15/"": "15號民協既馮檢基 名單"
+	16/"": "16號民建聯既陳恒鑌、郭芙蓉名單"
+	17/"": "17號獨立參選既張慧晶 名單"
+	18/"": "18號蒞地基督徒既呂智恆 名單"
+	19/"": "19號獨立參選既湯詠芝 名單"
+	20/"": "20號獨立參選既朱凱廸 名單"
+	1001/"": "香港民族黨既陳浩天 名單"
+	1002/"": "國民香港(城邦派)既中出羊子 名單"
+	8886/"": "NTW - 唔會投票"
+	8887/"": "NTW - 唔會支持任何政黨或候選人／投白票"
+	8888/"": "NTW - 未決定／唔知／難講"
+	00001ca0: apply to variables #8
+00001cac: value labels record
+	-99/"": "拒答"
+	1/"": "1號獨立參選既方國珊 名單"
+	2/"": "2號民主黨既林卓廷、劉慧卿 名單"
+	3/"": "3號獨立參選既廖添誠、姜炳耀 名單"
+	4/"": "4號香港復興會/熱血公民既陳云根、李珏熙 名單"
+	5/"": "5號社民連既梁國雄 名單"
+	6/"": "6號工黨既張超雄、郭永健 名單"
+	7/"": "7號公民黨既楊岳橋 名單"
+	8/"": "8號民主思路既麥嘉晉 名單"
+	9/"": "9號獨立參選既鄭家富 名單"
+	10/"": "10號民建聯既葛珮帆、莊元苳 名單"
+	11/"": "11號獨立參選既侯志強、王水生 名單"
+	12/"": "12號自由黨既李梓敬、田北俊 名單"
+	13/"": "13號工聯會既鄧家彪、譚金蓮 名單"
+	14/"": "14號新民主同盟既范國威、任啟邦 名單"
+	15/"": "15號獨立參選既陳玉娥 名單"
+	16/"": "16號獨立參選既黃琛喻 名單"
+	17/"": "17號正義聯盟既李偲嫣 名單"
+	18/"": "18號人民力量既陳志全 名單"
+	19/"": "19號青年新政既梁頌恆、李東昇 名單"
+	20/"": "20號獨立參選既梁金成 名單"
+	21/"": "21號新民黨既容海恩、譚領律 名單"
+	22/"": "22號民建聯既陳克勤、胡健民 名單"
+	1001/"": "本土民主前線既梁天琦 名單"
+	8886/"": "NTE - 唔會投票"
+	8887/"": "NTE - 唔會支持任何政黨或候選人／投白票"
+	8888/"": "NTE - 未決定／唔知／難講"
+	0000222c: apply to variables #9
+00002238: value labels record
+	-99/"": "拒答 （ask Q15－R7a）"
+	1/"": "係  （skip to Q16－R8）"
+	2/"": "唔係 （ask Q15－R7a）"
+	8888/"": "唔知∕難講（ask Q15－R7a）"
+	000022e8: apply to variables #10
+000022f4: value labels record
+	-99/"": "拒答"
+	1/"": "係 （skip to Part D）"
+	2/"": "唔係"
+	8888/"": "唔知∕難講"
+	0000235c: apply to variables #11
+00002368: value labels record
+	-99/"": "拒答"
+	1/"": "801號民主黨既涂謹申 名單"
+	2/"": "802號民建聯既李慧琼、洪連杉 名單"
+	3/"": "803號民主黨既鄺俊宇 名單"
+	4/"": "804號民協既何啟明 名單"
+	5/"": "805號公民黨既陳琬琛 名單"
+	6/"": "806號工聯會既王國興、莫健榮 名單"
+	7/"": "807號新民主同盟既關永業、許鋭宇 名單"
+	8/"": "808號街工既梁耀忠 名單"
+	9/"": "809號民建聯既周浩鼎、李世榮 名單"
+	8886/"": "DC2FC - 唔會投票"
+	8887/"": "DC2FC - 唔會支持任何政黨或候選人／投白票"
+	8888/"": "DC2FC - 未決定／唔知／難講"
+	000025e0: apply to variables #12
+000025ec: value labels record
+	-99/"": "拒答"
+	1/"": "有"
+	2/"": "冇：當時是選民"
+	3/"": "冇：當時不是選民"
+	8888/"": "唔記得"
+	00002674: apply to variables #13
+00002680: value labels record
+	-99/"": "拒答"
+	1/"": "傾向中間派"
+	2/"": "傾向建制派"
+	3/"": "傾向民主派"
+	4/"": "冇政治傾向∕政治中立∕唔屬於任何派別"
+	8887/"": "其他 (請註明) "
+	8888/"": "唔知/難講"
+	00002758: apply to variables #14
+00002764: value labels record
+	1/"": "男"
+	2/"": "女"
+	0000278c: apply to variables #15
+00002798: value labels record
+	-99/"": "唔肯講"
+	102/"": "18至25(skip to DM3)"
+	103/"": "26至33(skip to DM3)"
+	104/"": "34至50(skip to DM3)"
+	105/"": "51至65(skip to DM3)"
+	106/"": "66至75(skip to DM3)"
+	107/"": "76至98(skip to DM3)"
+	00002878: apply to variables #16
+00002884: value labels record
+	-99/"": "拒絕回答"
+	1/"": "18-19歲"
+	2/"": "20-24歲"
+	3/"": "25-29歲"
+	4/"": "30-34歲"
+	5/"": "35-39歲"
+	6/"": "40-44歲"
+	7/"": "45-49歲"
+	8/"": "50-54歲"
+	9/"": "55-59歲"
+	10/"": "60歲或以上"
+	00002994: apply to variables #17
+000029a0: value labels record
+	-99/"": "拒絕回答"
+	1/"": "18 - 29歲"
+	2/"": "30 - 49歲"
+	3/"": "50 歲或以上"
+	00002a08: apply to variables #18
+00002a14: value labels record
+	-99/"": "拒絕回答"
+	1/"": "18 - 39歲"
+	2/"": "40 - 59歲"
+	3/"": "60 歲或以上"
+	00002a7c: apply to variables #19
+00002a88: value labels record
+	-99/"": "拒絕回答"
+	1/"": "小學或以下"
+	2/"": "中學"
+	3/"": "大專或以上"
+	00002ae8: apply to variables #20
+00002af4: value labels record
+	-99/"": "拒絕回答"
+	1/"": "行政及專業人員"
+	2/"": "文職及服務人員"
+	3/"": "勞動工人"
+	4/"": "學生"
+	5/"": "家庭主婦"
+	6/"": "其他"
+	00002ba4: apply to variables #21
+00002bb0: value labels record
+	-99/"": "拒絕回答"
+	1/"": "沒有收入"
+	2/"": "HK$9,999或以下"
+	3/"": "HK$10,000-19,999"
+	4/"": "HK$20,000-39,999"
+	5/"": "HK$40,000或以上"
+	8886/"": "不穩定"
+	00002c80: apply to variables #22
+00002c8c: value labels record
+	-99/"": "拒絕回答"
+	1/"": "統稱「上層」"
+	2/"": "統稱「中層」"
+	3/"": "統稱「下層」"
+	8888/"": "唔知難講"
+	00002d24: apply to variables #23
+00002d30: value labels record
+	-99/"": "拒答(skip to End)"
+	1/"": "香港島"
+	2/"": "九龍西"
+	3/"": "九龍東"
+	4/"": "新界西"
+	5/"": "新界東"
+	00002dd0: apply to variables #24
+00002ddc: Record 7, subtype 3, size=4, count=8
+00002de8: machine integer info
+	Version: 24.0.0
+	Machine code: 720
+	Floating point representation: 1 (IEEE 754)
+	Compression code: 1
+	Endianness: 2 (little)
+	Character code: 65001
+00002e0c: Record 7, subtype 4, size=8, count=3
+00002e18: machine float info
+	sysmis: -1.797693134862316e+308 (-0x1.fffffffffffffp+1023)
+	highest: 1.797693134862316e+308 (0x1.fffffffffffffp+1023)
+	lowest: -1.797693134862316e+308 (-0x1.ffffffffffffep+1023)
+00002e34: Record 7, subtype 11, size=4, count=75
+00002e40: variable display parameters
+	Var #0: measure=1 (nominal), width=8, align=1 (right)
+	Var #1: measure=1 (nominal), width=8, align=1 (right)
+	Var #2: measure=1 (nominal), width=4, align=1 (right)
+	Var #3: measure=1 (nominal), width=4, align=1 (right)
+	Var #4: measure=1 (nominal), width=4, align=1 (right)
+	Var #5: measure=1 (nominal), width=4, align=1 (right)
+	Var #6: measure=1 (nominal), width=4, align=1 (right)
+	Var #7: measure=1 (nominal), width=4, align=1 (right)
+	Var #8: measure=1 (nominal), width=4, align=1 (right)
+	Var #9: measure=1 (nominal), width=4, align=1 (right)
+	Var #10: measure=1 (nominal), width=4, align=1 (right)
+	Var #11: measure=1 (nominal), width=4, align=1 (right)
+	Var #12: measure=1 (nominal), width=4, align=1 (right)
+	Var #13: measure=1 (nominal), width=4, align=1 (right)
+	Var #14: measure=1 (nominal), width=4, align=1 (right)
+	Var #15: measure=1 (nominal), width=4, align=1 (right)
+	Var #16: measure=1 (nominal), width=4, align=1 (right)
+	Var #17: measure=1 (nominal), width=4, align=1 (right)
+	Var #18: measure=1 (nominal), width=4, align=1 (right)
+	Var #19: measure=1 (nominal), width=4, align=1 (right)
+	Var #20: measure=1 (nominal), width=4, align=1 (right)
+	Var #21: measure=1 (nominal), width=4, align=1 (right)
+	Var #22: measure=1 (nominal), width=4, align=1 (right)
+	Var #23: measure=1 (nominal), width=4, align=1 (right)
+	Var #24: measure=1 (nominal), width=12, align=1 (right)
+00002f70: Record 7, subtype 13, size=1, count=259
+00002f7c: long variable names (short => long)
+	CASEID => caseid
+	DATE => date
+	R1 => R1
+	R1GP => R1gp
+	R2 => R2
+	R3 => R3
+	R4 => R4
+	R5 => R5
+	R6 => R6
+	R7 => R7
+	R7A => R7a
+	R8 => R8
+	R9 => R9
+	R10 => R10
+	SEX => sex
+	AGE1 => age1
+	AGE2 => age2
+	AGEGP2 => agegp2
+	AGEGP45 => agegp45
+	EDUGP_TP => edugp_TP
+	OCCGP => occgp
+	INCOMEGP => incomegp2
+	MIDGP => midgp
+	DISTRICT => district_vote
+	WEIGHT => weight
+00003083: Record 7, subtype 16, size=8, count=2
+0000309f: extended number of cases: unknown=1, ncases64=1056
+000030a3: Record 7, subtype 18, size=1, count=2041
+000030af: variable attributes
+	caseid: $@Role[1] = "0"
+	date: $@Role[1] = "0"
+	R1: $ODBC.Name[1] = ""
+	R1: $ODBC.Catalog[1] = "LC2016"
+	R1: $ODBC.Size[1] = "15"
+	R1: $ODBC.Type[1] = "8"
+	R1: $@Role[1] = "0"
+	R1gp: $ODBC.Name[1] = ""
+	R1gp: $ODBC.Catalog[1] = "LC2016"
+	R1gp: $ODBC.Size[1] = "15"
+	R1gp: $ODBC.Type[1] = "8"
+	R1gp: $@Role[1] = "0"
+	R2: $ODBC.Name[1] = ""
+	R2: $ODBC.Catalog[1] = "LC2016"
+	R2: $ODBC.Size[1] = "15"
+	R2: $ODBC.Type[1] = "8"
+	R2: $@Role[1] = "0"
+	R3: $ODBC.Name[1] = ""
+	R3: $ODBC.Catalog[1] = "LC2016"
+	R3: $ODBC.Size[1] = "15"
+	R3: $ODBC.Type[1] = "8"
+	R3: $@Role[1] = "0"
+	R4: $ODBC.Name[1] = ""
+	R4: $ODBC.Catalog[1] = "LC2016"
+	R4: $ODBC.Size[1] = "15"
+	R4: $ODBC.Type[1] = "8"
+	R4: $@Role[1] = "0"
+	R5: $ODBC.Name[1] = ""
+	R5: $ODBC.Catalog[1] = "LC2016"
+	R5: $ODBC.Size[1] = "15"
+	R5: $ODBC.Type[1] = "8"
+	R5: $@Role[1] = "0"
+	R6: $ODBC.Name[1] = ""
+	R6: $ODBC.Catalog[1] = "LC2016"
+	R6: $ODBC.Size[1] = "15"
+	R6: $ODBC.Type[1] = "8"
+	R6: $@Role[1] = "0"
+	R7: $ODBC.Name[1] = ""
+	R7: $ODBC.Catalog[1] = "LC2016"
+	R7: $ODBC.Size[1] = "15"
+	R7: $ODBC.Type[1] = "8"
+	R7: $@Role[1] = "0"
+	R7a: $ODBC.Name[1] = ""
+	R7a: $ODBC.Catalog[1] = "LC2016"
+	R7a: $ODBC.Size[1] = "15"
+	R7a: $ODBC.Type[1] = "8"
+	R7a: $@Role[1] = "0"
+	R8: $ODBC.Name[1] = ""
+	R8: $ODBC.Catalog[1] = "LC2016"
+	R8: $ODBC.Size[1] = "15"
+	R8: $ODBC.Type[1] = "8"
+	R8: $@Role[1] = "0"
+	R9: $ODBC.Name[1] = ""
+	R9: $ODBC.Catalog[1] = "LC2016"
+	R9: $ODBC.Size[1] = "15"
+	R9: $ODBC.Type[1] = "8"
+	R9: $@Role[1] = "0"
+	R10: $ODBC.Name[1] = ""
+	R10: $ODBC.Catalog[1] = "LC2016"
+	R10: $ODBC.Size[1] = "15"
+	R10: $ODBC.Type[1] = "8"
+	R10: $@Role[1] = "0"
+	sex: $ODBC.Name[1] = ""
+	sex: $ODBC.Catalog[1] = "LC2016"
+	sex: $ODBC.Size[1] = "15"
+	sex: $ODBC.Type[1] = "8"
+	sex: $@Role[1] = "0"
+	age1: $ODBC.Name[1] = ""
+	age1: $ODBC.Catalog[1] = "LC2016"
+	age1: $ODBC.Size[1] = "15"
+	age1: $ODBC.Type[1] = "8"
+	age1: $@Role[1] = "0"
+	age2: $ODBC.Name[1] = ""
+	age2: $ODBC.Catalog[1] = "LC2016"
+	age2: $ODBC.Size[1] = "15"
+	age2: $ODBC.Type[1] = "8"
+	age2: $@Role[1] = "0"
+	agegp2: $ODBC.Name[1] = ""
+	agegp2: $ODBC.Catalog[1] = "LC2016"
+	agegp2: $ODBC.Size[1] = "15"
+	agegp2: $ODBC.Type[1] = "8"
+	agegp2: $@Role[1] = "0"
+	agegp45: $ODBC.Name[1] = ""
+	agegp45: $ODBC.Catalog[1] = "LC2016"
+	agegp45: $ODBC.Size[1] = "15"
+	agegp45: $ODBC.Type[1] = "8"
+	agegp45: $@Role[1] = "0"
+	edugp_TP: $ODBC.Name[1] = ""
+	edugp_TP: $ODBC.Catalog[1] = "LC2016"
+	edugp_TP: $ODBC.Size[1] = "15"
+	edugp_TP: $ODBC.Type[1] = "8"
+	edugp_TP: $@Role[1] = "0"
+	occgp: $ODBC.Name[1] = ""
+	occgp: $ODBC.Catalog[1] = "LC2016"
+	occgp: $ODBC.Size[1] = "15"
+	occgp: $ODBC.Type[1] = "8"
+	occgp: $@Role[1] = "0"
+	incomegp2: $ODBC.Name[1] = ""
+	incomegp2: $ODBC.Catalog[1] = "LC2016"
+	incomegp2: $ODBC.Size[1] = "15"
+	incomegp2: $ODBC.Type[1] = "8"
+	incomegp2: $@Role[1] = "0"
+	midgp: $ODBC.Name[1] = ""
+	midgp: $ODBC.Catalog[1] = "LC2016"
+	midgp: $ODBC.Size[1] = "15"
+	midgp: $ODBC.Type[1] = "8"
+	midgp: $@Role[1] = "0"
+	district_vote: $ODBC.Name[1] = ""
+	district_vote: $ODBC.Catalog[1] = "LC2016"
+	district_vote: $ODBC.Size[1] = "15"
+	district_vote: $ODBC.Type[1] = "8"
+	district_vote: $@Role[1] = "0"
+	weight: $@Role[1] = "0"
+000038ac: Record 7, subtype 20, size=1, count=5
+000038b8: Character Encoding: UTF-8
+000038c1: end-of-dictionary record (first byte of data at 000038c5)

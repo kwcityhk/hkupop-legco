@@ -29,9 +29,16 @@
 # summary of weights ... 
 # head count is list 1 is now 11.9124 ...
 
+# clean the environment
+
+rm(list = ls())
+
+# cannot read the spss one use the cvsy one
+
 library("rio")
-legco2016_0803 <- import("/Users/kwcity.hk/my-git/hkupop-legco/hkupop.source.data.2016-08-03/LC2016_final_20160730_0803_v1_POP.csvy")
-head(legco2016_0803)            
+legco2016_0730_0803 <- import("/Users/kwcity.hk/my-git/hkupop-legco/hkupop.source.data.2016-08-03-started/LC2016_final_20160730_0803_v1_POP.csvy")
+head(legco2016_0730_0803) 
+summary(legco2016_0730_0803)
 
 # reproducible - what you use and what is the script ???
 # R cannot read the spss file ...
