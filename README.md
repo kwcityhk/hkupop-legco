@@ -4,6 +4,16 @@
 * the io link edit page is via setting (auto page) or : https://github.com/kwcityhk/hkupop-legco/generated_pages/new
 * the wiki is here: https://github.com/kwcityhk/hkupop-legco/wiki
 
+* Just want to use it?
+
+	- if you were using PC and have pspp installed
+	- ensure that PSPP is on your system path
+	- just copy the hkupop to D:\hkupop-legco\hkupop
+		(using github download to D:\ would do it)
+	- those batch file under D:\hkupop-legco\hkupop\ would generate all files and some statistics
+	- it would have enough sample for you to modify and test
+	- however due to issues with addfiles, the all dates or not by 5 days analysis have ???? in value label
+
 * Quick sampling
 
     - Assume you have install the pspp (or spss!); if not go to the section below on how to install it for mac, linux or windows
