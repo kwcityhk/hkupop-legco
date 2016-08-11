@@ -1,0 +1,60 @@
+﻿rem add one section per day
+
+D:
+CD "D:\hkupop-legco\hkupop"
+
+rem SET DATASET=LC2016_final_2016_03_by_5days-0731_0804_v1_POP-freq.SAV
+rem ECHO $DATASET
+
+rem LC2016_final_2016_03_by_all_days-minus_upto1Aug_v1_POP
+
+PSPP source-spss\LC2016_final_2016_03_by_all_days-minus_upto1Aug_v1_POP.sps -o output_03_by_minus_upto1Aug\LC2016_final_2016_03_by_all_days-minus_upto1Aug_v1_POP.pdf -e output_03_by_minus_upto1Aug\LC2016_final_2016_03_by_all_days-minus_upto1Aug_v1_POP-pdf-error.txt
+PSPP source-spss\LC2016_final_2016_03_by_all_days-minus_upto1Aug_v1_POP.sps -o output_03_by_minus_upto1Aug\LC2016_final_2016_03_by_all_days-minus_upto1Aug_v1_POP.txt -e output_03_by_minus_upto1Aug\LC2016_final_2016_03_by_all_days-minus_upto1Aug_v1_POP-pdf-error.txt
+
+rem LC2016_final_2016_03_by_all_days-v1_POP
+
+PSPP source-spss\LC2016_final_2016_03_by_all_days-v1_POP.sps -o output_03_by_all\LC2016_final_2016_03_by_all_days-v1_POP.pdf -e output_03_by_all\LC2016_final_2016_03_by_all_days-v1_POP-pdf-error.txt
+PSPP source-spss\LC2016_final_2016_03_by_all_days-v1_POP.sps -o output_03_by_all\LC2016_final_2016_03_by_all_days-v1_POP.txt -e output_03_by_all\LC2016_final_2016_03_by_all_days-v1_POP-pdf-error.txt
+
+rem LC2016_final_2016_03_by_5days-0730_0803_v1_POP
+
+PSPP source-spss\LC2016_final_2016_03_by_5days-0730_0803_v1_POP.SPS -o output_03_by_5days\LC2016_final_2016_03_by_5days-0730_0803_v1_POP.pdf -e output_03_by_5days\LC2016_final_2016_03_by_5days-0730_0803_v1_POP-pdf-error.txt
+PSPP source-spss\LC2016_final_2016_03_by_5days-0730_0803_v1_POP.SPS -o output_03_by_5days\LC2016_final_2016_03_by_5days-0730_0803_v1_POP.txt -e output_03_by_5days\LC2016_final_2016_03_by_5days-0730_0803_v1_POP-txt-error.txt
+
+rem LC2016_final_2016_03_by_5days-0731_0804_v1_POP
+
+PSPP source-spss\LC2016_final_2016_03_by_5days-0731_0804_v1_POP.SPS -o output_03_by_5days\LC2016_final_2016_03_by_5days-0731_0804_v1_POP.pdf -e output_03_by_5days\LC2016_final_2016_03_by_5days-0731_0804_v1_POP-pdf-error.txt
+PSPP source-spss\LC2016_final_2016_03_by_5days-0731_0804_v1_POP.SPS -o output_03_by_5days\LC2016_final_2016_03_by_5days-0731_0804_v1_POP.txt -e output_03_by_5days\LC2016_final_2016_03_by_5days-0731_0804_v1_POP-txt-error.txt
+
+rem LC2016_final_2016_03_by_5days-0801_0805_v1_POP
+
+PSPP source-spss\LC2016_final_2016_03_by_5days-0801_0805_v1_POP.SPS -o output_03_by_5days\LC2016_final_2016_03_by_5days-0801_0805_v1_POP.pdf -e output_03_by_5days\LC2016_final_2016_03_by_5days-0801_0805_v1_POP-pdf-error.txt
+PSPP source-spss\LC2016_final_2016_03_by_5days-0801_0805_v1_POP.SPS -o output_03_by_5days\LC2016_final_2016_03_by_5days-0801_0805_v1_POP.txt -e output_03_by_5days\LC2016_final_2016_03_by_5days-0801_0805_v1_POP-txt-error.txt
+
+rem LC2016_final_2016_03_by_5days-0802_0806_v1_POP
+
+PSPP source-spss\LC2016_final_2016_03_by_5days-0802_0806_v1_POP.SPS -o output_03_by_5days\LC2016_final_2016_03_by_5days-0802_0806_v1_POP.pdf -e output_03_by_5days\LC2016_final_2016_03_by_5days-0802_0806_v1_POP-pdf-error.txt
+PSPP source-spss\LC2016_final_2016_03_by_5days-0802_0806_v1_POP.SPS -o output_03_by_5days\LC2016_final_2016_03_by_5days-0802_0806_v1_POP.txt -e output_03_by_5days\LC2016_final_2016_03_by_5days-0802_0806_v1_POP-txt-error.txt
+
+rem LC2016_final_2016_03_by_5days-0803_0807_v1_POP
+
+PSPP source-spss\LC2016_final_2016_03_by_5days-0803_0807_v1_POP.SPS -o output_03_by_5days\LC2016_final_2016_03_by_5days-0803_0807_v1_POP.pdf -e output_03_by_5days\LC2016_final_2016_03_by_5days-0803_0807_v1_POP-pdf-error.txt
+PSPP source-spss\LC2016_final_2016_03_by_5days-0803_0807_v1_POP.SPS -o output_03_by_5days\LC2016_final_2016_03_by_5days-0803_0807_v1_POP.txt -e output_03_by_5days\LC2016_final_2016_03_by_5days-0803_0807_v1_POP-txt-error.txt
+
+rem LC2016_final_2016_03_by_5days-0804_0808_v1_POP
+
+
+PSPP source-spss\LC2016_final_2016_03_by_5days-0804_0808_v1_POP.SPS -o output_03_by_5days\LC2016_final_2016_03_by_5days-0804_0808_v1_POP.pdf -e output_03_by_5days\LC2016_final_2016_03_by_5days-0804_0808_v1_POP-pdf-error.txt
+PSPP source-spss\LC2016_final_2016_03_by_5days-0804_0808_v1_POP.SPS -o output_03_by_5days\LC2016_final_2016_03_by_5days-0804_0808_v1_POP.txt -e output_03_by_5days\LC2016_final_2016_03_by_5days-0804_0808_v1_POP-txt-error.txt
+
+rem -- duplicate the above 3 lines and add one section --- need to amend 7 places after copy ---
+
+type output_03_by_5days\LC2016_final_2016_03_by_5days-0804_0808_v1_POP-pdf-error.txt
+
+pause
+
+type output_03_by_5days\LC2016_final_2016_03_by_5days-0804_0808_v1_POP-txt-error.txt
+
+pause
+
+rem -- amend the 2 type error message lines
